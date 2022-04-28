@@ -1,0 +1,4126 @@
+@-webkit-keyframes animate-fade-in-up
+{
+   0% { -webkit-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -webkit-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@-moz-keyframes animate-fade-in-up
+{
+   0% { -moz-transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { -moz-transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+@keyframes animate-fade-in-up
+{
+   0% { transform: translate(0px,100px) rotate(0deg) ; opacity: 0;  }
+   100% { transform: translate(0px,0px) rotate(0deg) ; opacity: 1;  }
+}
+h1, .h1
+{
+   
+   font-weight: bold;
+   
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+   margin: 0px 0px 1em 0px;
+   padding: 0px 0px 0px 0px;
+}
+h2, .h2
+{
+   
+   font-weight: bold;
+   
+   text-decoration: none;
+   
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h3, .h3
+{
+   
+   font-weight: bold;
+   
+   text-decoration: none;
+   
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h4, .h4
+{
+   
+   font-weight: bold;
+   
+   font-style: italic;
+   text-decoration: none;
+   
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h5, .h5
+{
+   
+   font-weight: bold;
+   
+   text-decoration: none;
+   
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+h6, .h6
+{
+   
+   font-weight: bold;
+   
+   text-decoration: none;
+   
+   background-color: transparent;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+   display: inline;
+}
+.initially-hidden
+{
+   text-decoration: none;
+   background-color: transparent;
+   opacity: 0;
+}
+.Image-HeroVertical
+{
+   text-decoration: none;
+   background-color: transparent;
+   border: 0px solid #00FF7F;
+   margin: 20px 0px 20px 0px;
+   width: auto !important;
+   max-width: 550px;
+}
+.ContainerForHeroImages1
+{
+   text-decoration: none;
+   background-color: transparent;
+}
+.Paragraph-P
+{
+   text-decoration: none;
+   color: #FFFFFF;
+   background-color: transparent;
+}
+@media only screen and (min-width: 930px) and (max-width: 1023px)
+{
+}
+@media only screen and (max-width: 929px)
+{
+}
+
+
+/*----------------------------------------------*/
+
+body
+{
+   background-color: #FFFFFF;
+   
+   
+   font-weight: normal;
+   
+   
+   margin: 0;
+   padding: 0;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
+}
+.visibility-hidden
+{
+   visibility: hidden;
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+   #wb_home, #wb_product_collage
+   {
+      background-attachment: scroll !important;
+   }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
+{
+   #wb_home, #wb_product_collage
+   {
+      background-attachment: scroll !important;
+   }
+}
+#wb_header
+{
+   clear: both;
+   position: fixed;
+   left: 0;
+   top: 0;
+   
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-image: linear-gradient(to right, #DCDCDC 0%, #000000 100%);
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#header
+{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 20px 0px 20px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#header > .col-1, #header > .col-2
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#header > .col-1, #header > .col-2
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#header > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-start;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#header > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 66.66666667%;
+   max-width: 66.66666667%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-start;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+@media (max-width: 0px)
+{
+#header > .col-1, #header > .col-2
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_home
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: url('background-home-bar.webp');
+   background-repeat: repeat-x;
+   background-position: center bottom;
+   background-attachment: fixed;
+   background-size: cover;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#home
+{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 145px 0px 45px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#home > .col-1
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#home > .col-1
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#home > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 100%;
+   max-width: 100%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-end;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-end;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-end;
+   align-self: stretch;
+   align-items: flex-end;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+@media (max-width: 0px)
+{
+#home > .col-1
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#home-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(to top, #0000A7 0%, rgba(0,0,167,0.00) 100%);
+}
+#wb_features
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#features
+{
+   box-sizing: border-box;
+   padding: 30px 15px 20px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#features > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
+{
+   float: left;
+}
+#features > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 25%;
+   text-align: center;
+}
+#features > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 25%;
+   text-align: center;
+}
+#features > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 25%;
+   text-align: center;
+}
+#features > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 25%;
+   text-align: center;
+}
+#features:before,
+#features:after,
+#features .row:before,
+#features .row:after
+{
+   display: table;
+   content: " ";
+}
+#features:after,
+#features .row:after
+{
+   clear: both;
+}
+@media (max-width: 810px)
+{
+#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+
+#IconPowerSupply i
+{
+   color: #EBA65F;
+   display: inline-block;
+   
+   
+   vertical-align: middle;
+   width: 72px;
+}
+#IconPowerSupply:hover i
+{
+   color: #EBA65F;
+}
+
+
+#IconRepairs i
+{
+   color: #EBA65F;
+   display: inline-block;
+   
+   
+   vertical-align: middle;
+   width: 77px;
+}
+#IconRepairs:hover i
+{
+   color: #EBA65F;
+}
+
+
+#IconSpecials i
+{
+   color: #EBA65F;
+   display: inline-block;
+   
+   
+   vertical-align: middle;
+   width: 72px;
+}
+#IconSpecials:hover i
+{
+   color: #EBA65F;
+}
+
+
+#IconTransformer i
+{
+   color: #EBA65F;
+   display: inline-block;
+   
+   
+   vertical-align: middle;
+   width: 72px;
+}
+#IconTransformer:hover i
+{
+   color: #EBA65F;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+
+#wb_Heading2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+
+#wb_Heading3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+
+#wb_Heading4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+   text-align: center;
+}
+
+#wb_producten
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#_producten
+{
+   box-sizing: border-box;
+   padding: 130px 15px 130px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#_producten > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#_producten > .row > .col-1
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#_producten > .row > .col-1
+{
+   float: left;
+}
+#_producten > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#_producten:before,
+#_producten:after,
+#_producten .row:before,
+#_producten .row:after
+{
+   display: table;
+   content: " ";
+}
+#_producten:after,
+#_producten .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#_producten > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#producten-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(to top, #00008B 0%, rgba(0,0,139,0.00) 100%);
+}
+#wb_producten .parallax
+{
+   background-color: transparent;
+   background-image: url('wikkelpark1.webp');
+   background-repeat: repeat;
+   background-position: center center;
+   position: fixed;
+   top: 0;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#wb_producten .parallax__container
+{
+   clip: rect(0, auto, auto, 0);
+   height: 100%;
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: -100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px)
+{
+
+}
+#wb_about
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   height: 33vh;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#_about
+{
+   box-sizing: border-box;
+   height: 33vh;
+   padding: 130px 15px 130px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#_about > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#_about > .row > .col-1
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#_about > .row > .col-1
+{
+   float: left;
+}
+#_about > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#_about:before,
+#_about:after,
+#_about .row:before,
+#_about .row:after
+{
+   display: table;
+   content: " ";
+}
+#_about:after,
+#_about .row:after
+{
+   clear: both;
+}
+@media (max-width: 0px)
+{
+#wb_about, #_about
+{
+   height: auto;
+}
+#_about > div[class^="col-"]
+{
+   height: 33vh;
+}
+#_about > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#about-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(to top, #00008B 0%, rgba(0,0,139,0.00) 100%);
+}
+#wb_about .parallax
+{
+   background-color: transparent;
+   background-image: url('109-0997_IMG.webp');
+   background-repeat: repeat;
+   background-position: center center;
+   position: fixed;
+   top: 0;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#wb_about .parallax__container
+{
+   clip: rect(0, auto, auto, 0);
+   height: 100%;
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: -100;
+}
+#wb_about_texts
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #171717;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#about_texts
+{
+   box-sizing: border-box;
+   padding: 80px 15px 80px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#about_texts > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#about_texts > .row > .col-1, #about_texts > .row > .col-2
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#about_texts > .row > .col-1, #about_texts > .row > .col-2
+{
+   float: left;
+}
+#about_texts > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: center;
+}
+#about_texts > .row > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0px 10px 0px;
+}
+#about_texts > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 50%;
+   text-align: center;
+}
+#about_texts > .row > .col-2 > .col-2-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0px 10px 0px;
+}
+#about_texts:before,
+#about_texts:after,
+#about_texts .row:before,
+#about_texts .row:after
+{
+   display: table;
+   content: " ";
+}
+#about_texts:after,
+#about_texts .row:after
+{
+   clear: both;
+}
+@media (max-width: 810px)
+{
+#about_texts > .row > .col-1, #about_texts > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_contact
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   height: 33vh;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#_contact
+{
+   box-sizing: border-box;
+   height: 33vh;
+   padding: 130px 15px 130px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#_contact > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#_contact > .row > .col-1
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#_contact > .row > .col-1
+{
+   float: left;
+}
+#_contact > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: center;
+}
+#_contact:before,
+#_contact:after,
+#_contact .row:before,
+#_contact .row:after
+{
+   display: table;
+   content: " ";
+}
+#_contact:after,
+#_contact .row:after
+{
+   clear: both;
+}
+@media (max-width: 600px)
+{
+#wb_contact, #_contact
+{
+   height: auto;
+}
+#_contact > div[class^="col-"]
+{
+   height: 33vh;
+}
+#_contact > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#contact-overlay
+{
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background-image: linear-gradient(to top, #000080 0%, rgba(0,0,128,0.00) 100%);
+}
+#wb_contact .parallax
+{
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('contact-picardi4.webp');
+   background-repeat: no-repeat;
+   background-position: center center;
+   position: fixed;
+   top: 0;
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+   -webkit-transform-style: preserve-3d;
+   transform-style: preserve-3d;
+   width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+#wb_contact .parallax__container
+{
+   clip: rect(0, auto, auto, 0);
+   height: 100%;
+   left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 100%;
+   z-index: -100;
+}
+#wb_location
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #171717;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#location
+{
+   box-sizing: border-box;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   padding: 80px 0px 80px 0px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#location > .col-1, #location > .col-2, #location > .col-3
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#location > .col-1, #location > .col-2, #location > .col-3
+{
+   -webkit-flex: 0 0 auto;
+   flex: 0 0 auto;
+}
+#location > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-start;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   -webkit-justify-content: flex-start;
+   justify-content: flex-start;
+   text-align: left;
+}
+#location > .col-1 > .col-1-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0px 10px 0px;
+}
+#location > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-start;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   -webkit-justify-content: flex-end;
+   justify-content: flex-end;
+   text-align: right;
+}
+#location > .col-2 > .col-2-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 10px 0px 10px 0px;
+}
+#location > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   flex-basis: 33.33333333%;
+   max-width: 33.33333333%;
+   display: -webkit-flex;
+   -webkit-flex-wrap: wrap;
+   -webkit-align-content: flex-start;
+   -webkit-align-self: stretch;
+   -webkit-align-items: flex-start;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+   align-self: stretch;
+   align-items: flex-start;
+   -webkit-justify-content: center;
+   justify-content: center;
+   text-align: center;
+}
+#location > .col-3 > .col-3-padding
+{
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0px 25px 0px 25px;
+}
+@media (max-width: 930px)
+{
+#location > .col-1, #location > .col-2, #location > .col-3
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+#wb_location-text 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0px 0px 5px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_location-text
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_location-text p, #wb_location-text ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_location-text
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_footer
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: #202020;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#footer
+{
+   box-sizing: border-box;
+   padding: 50px 15px 50px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#footer > .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#footer > .row > .col-1
+{
+   box-sizing: border-box;
+   
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#footer > .row > .col-1
+{
+   float: left;
+}
+#footer > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   width: 100%;
+   text-align: left;
+}
+#footer:before,
+#footer:after,
+#footer .row:before,
+#footer .row:after
+{
+   display: table;
+   content: " ";
+}
+#footer:after,
+#footer .row:after
+{
+   clear: both;
+}
+@media (max-width: 600px)
+{
+#footer > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text16
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text16 p, #wb_Text16 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text16
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+
+#InlineFrame1
+{
+   border: 1px solid #C0C0C0;
+   border-radius: 0px;
+   margin: 0;
+}
+#InlineFrame1
+{
+   display: block;
+   float: left;
+   width: 100%;
+   height: 378px;
+   vertical-align: top;
+}
+#openingstijden
+{
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#openingstijden td
+{
+   padding: 0;
+   position: relative;
+}
+#openingstijden td div
+{
+   white-space: nowrap;
+}
+#openingstijden p, #openingstijden ul
+{
+   margin: 0;
+   padding: 0;
+}
+#openingstijden .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text2 p, #wb_Text2 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text2
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text3
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text3 p, #wb_Text3 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text3
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text7
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text7 p, #wb_Text7 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text7
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text5
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text5 p, #wb_Text5 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text5
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text9
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text9 p, #wb_Text9 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text9
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text10
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text10 p, #wb_Text10 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text10
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 20px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text11
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text11 p, #wb_Text11 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text11
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0px 0px 20px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text12
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text12 p, #wb_Text12 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text12
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+
+#wb_email-info 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_email-info
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_email-info p, #wb_email-info ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_email-info
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+
+#wb_Text14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text14
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text14 p, #wb_Text14 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text14
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text15
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text15 p, #wb_Text15 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text15
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text17
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text17 p, #wb_Text17 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text17
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_ResponsiveMenu1
+{
+   background-color: rgba(0,0,0,0.00);
+   display: block;
+   
+   font-weight: normal;
+   text-align: right;
+   width: 100%;
+   z-index: 1111 !important;
+}
+#ResponsiveMenu1
+{
+   
+   background-color: rgba(0,0,0,0.00);
+   display: inline-block;
+   height: 47px;
+}
+#wb_ResponsiveMenu1 ul
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   position: relative;
+}
+#wb_ResponsiveMenu1 ul:after
+{
+   clear: both;
+   content: "";
+   display: block;
+}
+#wb_ResponsiveMenu1 ul li
+{
+   display: list-item;
+   float: left;
+   list-style: none;
+   
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   
+   width: 22px;
+}
+#wb_ResponsiveMenu1 ul li a
+{
+   
+   background-color: rgba(0,0,0,0.00);
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   font-style: normal;
+   padding: 5px 15px 5px 5px;
+   text-align: center;
+   text-decoration: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: 37px;
+}
+.ResponsiveMenu1 a 
+{
+   display: block;
+}
+#wb_ResponsiveMenu1 li a:hover, #wb_ResponsiveMenu1 li .active
+{
+   background-color: #696969;
+   background-color: rgba(105,105,105,0.00);
+   color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 ul ul
+{
+   display: none;
+   position: absolute;
+   top: 47px;
+}
+#wb_ResponsiveMenu1 ul li:hover > ul
+{
+   display: list-item;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   float: none;
+   position: relative;
+   width: 125px;
+}
+#wb_ResponsiveMenu1 ul ul li a
+{
+   
+   background-color: rgba(0,0,0,0.86);
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover, #wb_ResponsiveMenu1 ul ul li .active
+{
+   background-color: #4F4F4F;
+   background-color: rgba(79,79,79,0.87);
+   color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 ul ul li i 
+{
+   margin-right: 7px;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul li a 
+{
+   color: #FFFFFF;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 5px;
+   text-align: left;
+   vertical-align: middle;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   left: 125px;
+   position: relative;
+   top: -47px;
+}
+#wb_ResponsiveMenu1 .arrow-down 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-top: 4px solid #FFFFFF;
+   border-right: 4px solid transparent;
+   border-left: 4px solid transparent;
+   border-bottom: 0 dotted;
+}
+#wb_ResponsiveMenu1 .arrow-left 
+{
+   display: inline-block;
+   width: 0;
+   height: 0;
+   margin-left: 2px;
+   vertical-align: middle;
+   border-left: 4px solid #FFFFFF;
+   border-top: 4px solid transparent;
+   border-bottom: 4px solid transparent;
+   border-right: 0 dotted;
+}
+#wb_ResponsiveMenu1 li a:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{ 
+   border-top-color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 ul ul li a:hover .arrow-left, #wb_ResponsiveMenu1 ul ul li .active .arrow-left
+{ 
+   border-left-color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 .toggle,[id^=ResponsiveMenu1-submenu]
+{
+   display: none;
+}
+@media all and (max-width:810px) 
+{
+#wb_ResponsiveMenu1
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   
+   font-weight: normal;
+   font-style: normal;
+   padding: 5px 5px 5px 5px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto !important;   margin: 0;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   
+   background-color: rgba(0,0,0,0.00);
+   color: #FFFFFF;
+   padding: 0px 5px 0px 5px;
+   
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover 
+{
+   background-color: #696969;
+   background-color: rgba(105,105,105,0.00);
+   color: #F8E0BE;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 47px !important;
+   
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100% !important;
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 10px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 5px 5px 5px 15px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 7px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   right: 15px;
+   top: 11px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #4F4F4F;
+   color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #F8E0BE;
+}
+}
+
+
+
+
+#wb_Text4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0px 0px 15px 0px;
+   margin: 70px 0px 0px 0px;
+   text-align: left;
+}
+#wb_Text4
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text4 p, #wb_Text4 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text4
+{
+   display: block;
+   margin: 70px 0px 0px 0px;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0px 0px 15px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_Text6 p, #wb_Text6 ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_Text6
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_PageSubTitleText 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_PageSubTitleText
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_PageSubTitleText p, #wb_PageSubTitleText ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_PageSubTitleText
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_Heading5
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+#wb_Heading6
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+#wb_Heading7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+#wb_Heading8
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+#wb_phone-numbers 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 0px 0px 5px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_phone-numbers
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_phone-numbers p, #wb_phone-numbers ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_phone-numbers
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+#wb_KvK-info 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   padding: 15px 0px 0px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_KvK-info
+{
+   color: #FFFFFF;
+   
+   font-weight: normal;
+   
+   
+}
+#wb_KvK-info p, #wb_KvK-info ul
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_KvK-info
+{
+   display: block;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+}
+
+#wb_Heading2
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+
+#wb_Heading3
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+#wb_Heading4
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+
+#wb_Heading5
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+
+#wb_Heading6
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+#wb_Heading7
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+#wb_Heading8
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+
+
+
+
+
+#openingstijden
+{
+   display: table;
+   width: 100%;
+   height: 127px;
+   
+}
+#wb_ResponsiveMenu1
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+#wb_Heading1
+{
+   display: inline-block;
+   width: 100%;
+   
+}
+@media only screen and (min-width: 930px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 20px 0px 20px 0px;
+}
+#wb_home
+{
+   visibility: visible;
+   display: table;
+}
+#wb_home
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#home
+{
+   padding: 145px 0px 45px 0px;
+}
+#wb_features
+{
+   visibility: visible;
+   display: table;
+}
+#wb_features
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#features
+{
+   padding: 30px 15px 20px 15px;
+}
+#features .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#IconPowerSupply i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconRepairs i
+{
+   
+   
+   width: 77px;
+}
+
+
+#IconSpecials i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconTransformer i
+{
+   
+   
+   width: 72px;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_producten
+{
+   visibility: visible;
+   display: table;
+}
+#wb_producten
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_producten
+{
+   padding: 130px 15px 130px 15px;
+}
+#_producten .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#wb_about
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_about
+{
+   padding: 130px 15px 130px 15px;
+}
+#_about .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_about_texts
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about_texts
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#about_texts
+{
+   padding: 80px 15px 80px 15px;
+}
+#about_texts .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contact
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contact
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_contact
+{
+   padding: 130px 15px 130px 15px;
+}
+#_contact .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_location
+{
+   visibility: visible;
+   display: table;
+}
+#wb_location
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#location
+{
+   padding: 80px 0px 80px 0px;
+}
+#wb_location-text
+{
+   visibility: visible;
+   display: block;
+}
+#wb_location-text
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_footer
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footer
+{
+   padding: 50px 15px 50px 15px;
+}
+#footer .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+}
+
+
+#InlineFrame1
+{
+   width: 100%;
+   height: 378px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#openingstijden
+{
+   visibility: visible;
+   display: table;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text3
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text7
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text5
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 20px 0px;
+   text-align: left;
+   
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_email-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_email-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 20px 0px 0px 0px;
+   text-align: right;
+}
+
+
+
+
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text4
+{
+   
+   font-weight: normal;
+   
+   margin: 70px 0px 0px 0px;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text6
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_PageSubTitleText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_PageSubTitleText
+{
+   margin: 0;
+   padding: 20px 0px 20px 0px;
+}
+#wb_phone-numbers
+{
+   visibility: visible;
+   display: block;
+}
+#wb_phone-numbers
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_KvK-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_KvK-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+}
+@media only screen and (max-width: 929px)
+{
+body
+{
+   
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 20px 0px 20px 0px;
+}
+#wb_home
+{
+   visibility: visible;
+   display: table;
+}
+#wb_home
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#home
+{
+   padding: 145px 0px 45px 0px;
+}
+#wb_features
+{
+   visibility: visible;
+   display: table;
+}
+#wb_features
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#features
+{
+   padding: 30px 15px 20px 15px;
+}
+#features .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#IconPowerSupply i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconRepairs i
+{
+   
+   
+   width: 77px;
+}
+
+
+#IconSpecials i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconTransformer i
+{
+   
+   
+   width: 72px;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_producten
+{
+   visibility: visible;
+   display: table;
+}
+#wb_producten
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_producten
+{
+   padding: 130px 15px 130px 15px;
+}
+#_producten .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#wb_about
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_about
+{
+   padding: 130px 15px 130px 15px;
+}
+#_about .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_about_texts
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about_texts
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#about_texts
+{
+   padding: 80px 15px 80px 15px;
+}
+#about_texts .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contact
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contact
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_contact
+{
+   padding: 130px 15px 130px 15px;
+}
+#_contact .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_location
+{
+   visibility: visible;
+   display: table;
+}
+#wb_location
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#location
+{
+   padding: 80px 0px 80px 0px;
+}
+#wb_location-text
+{
+   visibility: visible;
+   display: block;
+}
+#wb_location-text
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_footer
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footer
+{
+   padding: 50px 15px 50px 15px;
+}
+#footer .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+}
+
+
+#InlineFrame1
+{
+   width: 100%;
+   height: 378px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#openingstijden
+{
+   visibility: visible;
+   display: table;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text3
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text7
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text5
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 20px 0px;
+   text-align: left;
+   
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_email-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_email-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 20px 0px 0px 0px;
+   text-align: right;
+}
+
+
+
+
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text4
+{
+   
+   font-weight: normal;
+   
+   margin: 70px 0px 0px 0px;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text6
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_PageSubTitleText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_PageSubTitleText
+{
+   margin: 0;
+   padding: 20px 0px 20px 0px;
+}
+#wb_phone-numbers
+{
+   visibility: visible;
+   display: block;
+}
+#wb_phone-numbers
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_KvK-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_KvK-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+}
+
+
+/*----------------------------------------------*/
+
+
+/*
+Tweaks om WYSIWYG Web Builder gegenereerde output te manipuleren zodat 't wel oogt zoals wij wensen.
+*/
+
+/*
+Wrapper rondom een aantal plaatjes, die allemaal op dezelfde breedte flexibel er uit moeten komen.
+*/
+.ContainerForHeroImages1
+{
+}
+
+.ContainerForHeroImages1 > div
+{
+	width: auto;
+	max-width: 400px;
+}
+
+
+
+@font-face {
+  font-family: 'Picardi';
+  src: url('Metropolis-Light.otf')  format('opentype');
+  font-weight: regular;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Picardi';
+  src: url('Metropolis-LightItalic.otf')  format('opentype');
+  font-weight: regular;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Picardi';
+  src: url('Metropolis-ExtraBold.otf')  format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Picardi-Kop';
+  src: url('Libby.ttf')  format('opentype');   /* LibbyRegular but patched! */
+  font-weight: regular;
+  font-style: bold;
+}
+
+
+
+/*
+Kleuren, etc. site-wide:
+*/
+body {
+	color: white;
+    background-color: black;	
+	
+	//font-size: 16px !important;
+    font-size: calc(100vw / 90);   /* make the font-size dependent on the viewport; this makes the entire collage design kinda 'fixed' i.e. rescaling with the user display */
+	line-height: 1.35em;
+	
+	font-family: 'Picardi';
+}
+
+h1 {
+    font-family: 'Picardi-Kop';
+    line-height: 1.35em;
+    max-width: 25em;
+    margin-left: auto !important;
+    margin-right: auto !important;
+	margin-top: 1.5em !important;
+    margin-bottom: 0.35em;
+}
+
+h2 {
+    font-family: 'Picardi-Kop';
+    line-height: 1.35em;
+    max-width: 25em;
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    display: block;
+    margin-bottom: 0.35em;
+}
+
+h3 {
+	/* overrule the color: black for these */
+	color: inherit;
+	
+	font-family: 'Picardi-Kop';
+    margin-top: 1em !important;
+    display: block;
+	
+    font-size: 120%;
+}
+
+/* tool gebruikt: https://color.adobe.com/nl/create/color-wheel */
+
+a {
+	color: #82A9D9;
+	text-decoration: none;
+}
+
+a:link { 
+	text-decoration: none; 
+	color: block;
+	//color: #8A82D9;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color: #BA96FA;
+}
+
+a:hover { 
+	text-decoration: none; 
+	color: #91E0FF;
+}
+
+a:active { 
+	text-decoration: none; 
+	color: #91E0FF;
+}
+
+#wb_PageTitleText {
+    font-family: Picardi-Kop;
+    max-width: 30em;
+    font-size: 200%;
+    line-height: 1.35em;
+}
+
+#wb_PageSubTitleText {
+    font-size: 150%;
+    line-height: 1.35em;
+    max-width: 39em;
+}
+
+
+td {
+	font-size: 100%;
+}
+
+/* override Web builder generated style explicitly: zero-size font must be neglected. */
+#location > .col-1, #location > .col-2, #location > .col-3
+{
+    font-size: inherit;
+}
+
+/* Openingstijden tabel hacks: header row dikker, geen 100% width */
+#location th {
+    padding-bottom: 1em;
+}
+
+td:first-child {
+    /* text-align: right !important; */
+    padding-right: 3em !important;
+}
+
+#location table {
+    width: auto !important;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte voor de tekst, zodat deze goed leesbaar blijft op alle schermen. 
+*/
+#wb_features {
+    background-color: #000000;
+}
+
+#features .row > div > div:nth-child(3) {
+    //border: 2px solid red;
+    max-width: 34em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* visual tweak for readability in wide screens: keep text lines sane */
+#features p {
+	/* max-width: 26em; */
+    max-width: 20em;
+	
+	margin-left: auto;
+    margin-right: auto;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+#features p + p {
+	margin-top: -1em;
+}
+
+#features {
+    padding: 3em 15px 3em 15px;
+}
+
+
+/* custom layout for the collage section of the web site page */
+#wb_product_collage
+{
+   clear: both;
+   position: relative;
+   display: flex;
+   text-align: left;
+   width: 100%;
+   height: 65vw;  /* use the `vw` CSS unit to make the enforced height relative to the screen/display WIDTH: this SHOULD result in a constant aspect ratio. */
+   background-color: #000000;
+   //border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+   //font-size: 85%;
+   //font-size: calc(100vw / 90);   /* make the font-size dependent on the viewport; this makes the entire collage design kinda 'fixed' i.e. rescaling with the user display */
+	
+	/* make sure we pick up the LOCAL font-size for our line height, so everything scales along, depending on browser width */
+	line-height: 1.35em;
+   
+   /* TODO: correct fontsize for folks with 125% scaling and other readability/invalidity custom user settings */
+   
+   box-sizing: border-box;
+}
+
+#wb_product_collage div
+{
+   box-sizing: border-box;
+}
+
+#collage_background {
+	position: absolute;
+	//top: 0;
+	top: 2em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	//border: solid 4px red;
+}
+
+#collage_background img {
+	display: block;
+	position: absolute;
+	//border: solid 2px green;
+}
+
+
+/* images: largest size (height or width) is used to determine actual size; SHOULD correspond with the one we used for the 1024px output/export when we made the webp images for these! */
+
+/* printplaat / electronica */
+img#collage_hero_img_1 {
+	bottom: 0;
+	left: 0;
+	width: 45%;
+}
+
+/* dikke trafo met ceramische klossen */
+img#collage_hero_img_2 {
+	top: 0;
+	left: 0;
+	height: 30%;
+}
+
+/* HV blok met kroonsteen grijs en draden grijs/zwart */
+img#collage_hero_img_3 {
+	top: 0;
+	right: 6%;
+	width: 30%;
+}
+
+/* meest verkocht */
+img#collage_hero_img_4 {
+	top: calc(50% - 15%);
+	left: calc(50% - 12%);
+	width: 25%;
+}
+
+/* de pijp */
+img#collage_hero_img_5 {
+	bottom: 1%;
+	right: 0.5%;
+	height: 50%;
+}
+
+#collage_infochunks {
+	position: absolute;
+	//top: 0;
+    top: 2em;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	//border: solid 2px yellow;
+}
+
+
+#collage_infochunks > div {
+	//border: 2px solid purple;
+	position: absolute;
+}
+
+#collage_infochunks ul {
+	margin: 0 0 0.35em 0.35em;
+	padding: 0;
+}
+#collage_infochunks ul li {
+	padding-left: 0.3em;
+}
+#collage_infochunks p {
+	margin: 0 0 0.35em 0;
+	padding: 0;
+}
+#collage_infochunks h3 {
+	margin-bottom: 1em;
+	font-size: 100% !important;
+}
+#collage_infochunks li::marker {
+	font-family: FontAwesome;
+	content: "";
+	
+    padding-right: 0.5em;
+    color: #eba65f;
+}
+
+#collage_infochunks p.p-spacing {
+	height: 0.5em;
+	
+	/* nuke all spacing-around for this one; it only serves as a spacer, which should be guided by the height setting only! */
+	margin: 0;
+	padding: 0;
+	
+	//border: 1px solid red;
+}
+
+#collage_blurb_no_1 {
+    top: 0;
+    left: 48%;
+    width: 28%;
+	max-width: 35em;
+	
+	//border: 2px solid brown;
+	
+	font-style: italic;
+}
+
+#collage_blurb_no_2 {
+    top: 0;
+    left: 18%;
+    width: 26%;
+	max-width: 35em;
+	
+	//border: 2px solid red;
+}
+
+#collage_blurb_no_3 {
+	top: 30%;
+    left: 0;
+    width: 43%;
+    height: 30%;   /* fix the height, so we can vertically-center the content for this blurb */
+	max-width: 35em;
+
+	/* To center the content of this DIV (P and UL/LI tags), we use FLEX layout.
+	   The critical bit is the justify-content setting + flex-direction.
+	 */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+	margin-left: 1em;   /* make sure the bullets in the text are not clipped by the screen edge. */
+	
+	//border: 2px solid orange;
+}
+
+#collage_blurb_no_4 {
+	top: 34%;
+    left: 70%;
+    width: 30%;
+	max-width: 26em;   /* special: betere flow van de tekst op dit moment */
+	
+	//border: 2px solid yellow;
+}
+
+#collage_blurb_no_5 {
+	top: 52%;
+    left: 66%;
+    width: 20%;
+	max-width: 35em;
+	
+	//border: 2px solid green;
+}
+
+#collage_blurb_no_6 {
+	top: 70%;
+    left: 52%;
+    width: 50%;
+    max-width: 33em;   /* special: betere flow van de tekst op dit moment */
+	
+	//border: 2px solid blue;
+}
+
+#collage_blurb_no_7 {
+	top: 86%;
+    left: 46%;
+    width: 37%;
+	max-width: 35em;
+	
+	//border: 2px solid grey;
+}
+
+
+
+
+
+#layout-shape-for-collage-no-1 {
+    //background-color: #764abc87;
+	//border: purple solid 2px;
+    float: right;
+
+	/* oddly enough '100%' isn't working for us here.
+	   Another odd thing is that 100% for the clip path seems to be a different one than 100% for shape-outside, which seems to assume the full width of the parent div somehow... 
+	   
+	   EDIT: Bzzzzt! This is a Chrome bug: when editing these values in the Chrome Dev panel, you can change these values but then they behave as described above **while editing**.
+	   Once you've patched the edits into this CSS file and [F5] reloaded the page, it suddenly behaves as expected: 100% for both is the right edge of the parent div.
+	 */
+    height: 23em;
+
+    width: 70%;
+
+    /* shape-outside: polygon(0 100%, 100% 100%, 100% 30% );  -- see Chrome Dev Panel note above; this was what worked there, during editing. But Screwed up royally after reload. */
+    shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
+    //clip-path: polygon(0 100%, 100% 100%, 100% 65% );
+}
+
+
+
+
+
+
+#wb_about_texts p {
+	max-width: 35em;
+	
+	text-align: left;
+}
+
+
+/* quick & dirty hack voordat we naar fonts, etc. visuals gaan kijken. Later correct implementeren!   TODO     */
+#wb_Text1 {
+	font-size: 200%;
+	line-height: 1.2em;
+}
+
+
+
+/* correct for language dropdown menu being clipped off the right screen edge */
+#wb_ResponsiveMenu1 ul ul {
+    right: 0.75em;
+    top: 3.75em;
+}
+/* and correction for 'Niederlaendisch' as a menu-item sticking out: make sure we've got place enough for such long language names. */
+#wb_ResponsiveMenu1 ul ul li {
+    width: 12em;
+}
+#wb_ResponsiveMenu1 ul li i
+{
+   width: auto;
+}
+
+/* tweaking the top menu bar */
+#header {
+    padding: 5px 0px 5px 0px !important;
+}
+
+#header > .col-2 {
+    -webkit-align-content: center !important;
+    align-content: center !important;
+}
+
+#header .col-1 img {
+    height: 6em;
+}
+
+#wb_ResponsiveMenu1 ul ul li a {
+    text-align: right;
+}
+#wb_ResponsiveMenu1 .arrow-down {
+	margin-left: 0.35em;
+}
+#wb_ResponsiveMenu1 {
+    font-size: 90%;
+    /* border: 1px solid red; */
+    margin-bottom: 0.5em;
+}
+
+/*
+   Recreate the background image parallax effects in pure CSS: we can get rid completely of all jQuery stuff injected by WebBuilder, making for a much leaner website 
+ */
+
+#wb_home {
+    //background-position: center bottom;
+    background-size: 100% 100%;
+    background-position-x: center;
+    background-position-y: 1em;
+}
+
+#wb_about 
+{
+   background-color: transparent;
+   background-image: url('109-0997_IMG.webp');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+#wb_contact 
+{
+   background-clip: padding-box;
+   background-color: transparent;
+   background-image: url('contact-picardi4.webp');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+#wb_producten 
+{
+   background-color: transparent;
+   background-image: url('wikkelpark1.webp');
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+}
+
+#wb_producten p
+{
+    font-size: 125%;
+}
+
+
+#wb_header {
+	z-index: 1;
+}
+
+#wb_home {
+    /* background-position: center calc(100% - -1em); */
+    //background-position: center bottom;
+}
+/* subtitle of the page: should be slightly larger than usual */	
+#wb_home p {
+	font-size: 135%;
+	line-height: 1.2em;
+	max-width: 39em;
+	margin: 0;
+	margin-top: 1em;
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#home {
+	padding-bottom: 3em;
+}
+	
+#home > .col-1 {
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: nowrap;
+}	
+
+
+#wb_leerbedrijf {
+    max-width: 35em;
+}
+#leerbedrijf {
+    max-width: 12em !important;
+    width: 33% !important;
+    margin: 0 !important;
+}
+
+#anniversary-45yr {
+    max-width: 35em !important;
+    margin: 0 !important;
+    width: 100% !important;
+}
+#wb_anniversary-45yr {
+    max-width: 35em;
+	
+    /* height patch to ensure text lines in left and right column align at their baselines. */
+    height: 7em;
+
+	/* make it stick out above the columns a little for a (opinionated) better visual */
+    margin-top: -2em;
+}
+
+#SignalAppLink {
+	width: 6em;
+}
+
+#location > .col-2 > .col-2-padding {
+    padding: 10px 0px 0px 0px;
+}
+#InlineFrame1 {
+    height: 20em;
+}
+
+#vroomshoop {
+    width: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.emphasized-heading {
+	font-family: 'Picardi-Kop';
+}
+#location > div > div > div {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* image + iframe tweaking: */
+#vroomshoop {
+    border: solid #89541e 0.35em;
+	/* margin-top: 1em; */
+	margin-top: 2.75em;
+}
+
+#location iframe {
+    border: solid #89541e 0.35em;
+}
+
+
+/* WebBuilder didn't generate the second section like the others that follow it. Patch it back: */
+#wb_producten
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   height: 33vh;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+/* no-images: fallback */
+#wb_producten, #wb_about, #wb_contact {
+   background-color: #5a6cd7;
+}
+
+/* patch the reference/jump point for the in-page TOC menu to ensure the banners for each section will be fully visible */
+#producten, #about, #contact
+{
+   box-sizing: border-box;
+   //height: 33vh;
+   //padding: 130px 15px 130px 15px;
+   margin-right: auto;
+   margin-left: auto;
+
+    height: 10em;
+    padding: 5em 15px 5em 15px;
+    margin-top: -5em;
+    margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    top: auto;
+    border: 1px solid red;
+    z-index: 10;
+}
+
+#about_texts p {
+	margin-bottom: 1em;
+}
+
+/* patch to "center" the line in the bar */
+#about h2 {
+	//margin-bottom: 4em;
+}
+
+#footer p {
+	text-align: center;
+}
+
+
+
+
+#footer {
+    padding: 2em;
+    font-size: 85%;
+}
+
+
+
+
+/* adjust jump targets so leader images are in full view on menu jump: */
+name {
+    position: relative;
+    bottom: 7em;
+    left: 0;
+    height: 0;
+    display: block;
+    //border: 1px red solid;
+    //z-index: 1;
+}
+
+
+
+.mobile-phone-icon {
+   font-size: 135%;
+    width: 1em;
+}
+
+
+
+
+.iconColumnOuter
+{
+   //background-color: transparent;
+   //background-image: none;
+   //border: 1px solid #245580;
+   //border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   //display:inline-block;
+   position:relative;
+}
+.iconColumnInner
+{
+}
+.iconColumnInner i
+{
+   color: #EBA65F;
+   //display: inline-block;
+   font-size: 500%;
+   
+   vertical-align: middle;
+   //width: 1em;
+}
+.iconColumnInner:hover i
+{
+   //color: #EBA65F;
+}
+
+
+/*----------------------------------------------*/
+
+
+/* 
+ * Place custom tweaks for the specific EN site page(s) in this CSS source file. 
+ */
+
+
+#wb_home p {
+    max-width: 46em;
+} 
+
+/* visual tweak for readability in wide screens: keep text lines sane */
+#features .col-1 p {
+    max-width: 17em;
+}
+
+	

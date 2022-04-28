@@ -1,0 +1,401 @@
+<!DOCTYPE html><html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="language" content="de">
+	
+<meta name="robots" content="index,follow" >
+<meta name="google-site-verification" content="Z1jB5P56XDBeQTScxc0TA2bcLtGbx4jIVLsduqZ8gN0" >
+
+<title>Picardi B.V. Hochspannungstechnik</title>
+<meta name="description" content="!!Picardi B.V. ontwikkelt, produceert en repareert hoogspanningstransformatoren en hoogspanningsvoedingen voornamelijk op klantenspecificatie." >
+<meta name="keywords" content="!!transformatorenfabriek, transformator producent, trafo, hoogspanningstransformatoren, hoogspanningstransformator, hoogspanningstrafo, ozongenerator, ontsteektransformator, ontsteektrafo, scheidingstransformator, scheidingstrafo, neontransformator, neontrafo, bombarder trafo, hoogspanningsvoeding, hoogspannings-spanningsbronnen, hoogspannings-stroombronnen" >
+<meta name="author" content="!!Picardi B.V." >
+<meta name="categories" content="!!hoogspanningstransformatoren producent, hoogspanningsvoedingen producent" >
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+<link href="font-awesome.min.css" rel="stylesheet">
+
+
+<link href="app_de.css" rel="stylesheet">
+<script type="text/javascript">
+
+// https://stackoverflow.com/questions/1043339/javascript-for-detecting-browser-language-preference
+
+try {
+	const userLang = encodeURIComponent(navigator.languages
+		? navigator.languages[0]
+		: (navigator.language || navigator.userLanguage));
+	const lang = userLang.substr(0, 2);
+
+	console.log({ lang, userLang, langs: navigator.languages, params: window.location.searchParams, loc: window.location })
+
+	// https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+	//
+	// We truly support only modern borwsers (non-IE, we assume everyone in corporate has upgraded to MS Edge)
+	// so no need to 'cope' with non-support of the URLSearchParams class either!
+
+	const current_uri = new URL(document.location || window.location);
+	const urlSearchParams = current_uri.searchParams;
+	if (urlSearchParams) {
+		const visited_lang = urlSearchParams.get("l");
+
+		if (!visited_lang) {
+			// initial visit by user; this happens every time they visit our page.
+			// quick redirect for non-native language preferences.
+			
+			urlSearchParams.set('l', "de");
+			switch (lang) {
+			case 'nl':
+				current_uri.path = "/test/";
+				break;
+				
+			case 'de':
+			case 'en': 
+				current_uri.path = `/test/app_${ lang }.html`;
+				break;
+				
+			default:
+				console.log("unsupported language", userLang);
+				throw new Exception(`b0rk : unsupported language [${ userLang }]`);
+			}
+
+			// redirect:
+			window.location.href = current_uri.href;
+		}
+	}
+}
+catch (ex) {
+	console.error("b0rk", {ex: ex});
+}
+
+
+</script>
+	
+</head>
+<body>
+   <div id="wb_header">
+      <div id="header">
+         <div class="col-1">
+            
+               <img src="picardi-nieuw16-25.webp" id="Image1" alt="!!Picardi: bedrijfslogo"  title="!!Picardi: bedrijfslogo" >
+            
+         </div>
+         <div class="col-2">
+            <div role="navigation" id="wb_ResponsiveMenu1">
+               <label class="toggle" for="ResponsiveMenu1-submenu" id="ResponsiveMenu1-title"><span id="ResponsiveMenu1-icon">   </span></label>
+               <input type="checkbox" id="ResponsiveMenu1-submenu">
+               <ul class="ResponsiveMenu1" id="ResponsiveMenu1" role="menu">
+                  <li role="menuitem"><a href="#home"><i class="fa fa-home fa-2x"> </i><br>Heim</a></li>
+                  <li role="menuitem"><a href="#producten"><i class="fa fa-gear fa-2x"> </i><br>Produkte</a></li>
+                  <li role="menuitem"><a href="#about"><i class="fa fa-user fa-2x"> </i><br>&Uuml;ber uns</a></li>
+                  <li role="menuitem"><a href="#contact"><i class="fa fa-handshake-o fa-2x"> </i><br>Kontakt</a></li>
+                  <li role="menuitem">
+                     <label for="ResponsiveMenu1-submenu-0" class="toggle"><i class="fa fa-flag fa-2x"> </i>Sprache<b class="arrow-down"></b></label>
+                     <a href="javascript:void(0)"><i class="fa fa-flag fa-2x"> </i><br>Sprache<b class="arrow-down"></b></a>
+                     <input type="checkbox" id="ResponsiveMenu1-submenu-0">
+                     <ul role="menu">
+                        <li role="menuitem" class="nl-menuitem"><a href="./index.html?l=nl">Niederl&auml;ndisch</a></li>
+<li role="menuitem" class="en-menuitem"><a href="./app_en.html?l=en">Englisch</a></li>
+<li role="menuitem" class="active-menuitem de-menuitem"><a href="#" class="active">Deutsch</a></li>
+                     </ul>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_home">
+      <div id="home-overlay"></div>
+      <div id="home">
+         <div class="col-1">
+            
+               <h1 id="Heading5">Picardi B.V. entwickelt Transformatoren und Netzteile nach Kundenspezifikation</h1>
+            
+            
+               
+               <p>Unsere Transformatoren und Netzteile sind konzipiert f&uuml;r Hochspannungen in Kombination mit Kleinstr&ouml;me, Kurzschlussfestigkeit, Stabilisierbarkeit, Einstellbarkeit, Steuerbarkeit.</p>
+            
+         </div>
+      </div>
+   </div>
+   <div id="wb_features">
+      <div id="features">
+         <div class="row">
+            <div class="col-1">
+               <div class="iconColumnOuter">
+                  <div class="iconColumnInner"><i class="fa fa-bolt"></i></div>
+               </div>
+               
+                  <h3 id="Heading1">Transformatoren</h3>
+               
+               
+                  <p>Durch jahrelange Erfahrung haben wir uns darauf spezialisiert, zuverl&auml;ssige Hochspannungsprodukte herzustellen.</p>
+                  <p>Sowohl Einzelst&uuml;cke als Serienfertigung.</p>
+               
+            </div>
+            <div class="col-2">
+               <div class="iconColumnOuter">
+                  <div class="iconColumnInner"><i class="fa fa-microchip"></i></div>
+               </div>
+               
+                  <h3 id="Heading2">Speisungen</h3>
+               
+               
+                  <p>Ob Wasserreinigung, Luftreinigung oder andere Anwendungen, die von uns entwickelten und hergestellten Speisungen kommen in vielen Projekten zum Einsatz.</p>
+               
+            </div>
+            <div class="col-3">
+               <div class="iconColumnOuter">
+                  <div class="iconColumnInner"><i class="fa fa-gears"></i></div>
+               </div>
+               
+                  <h3 id="Heading3">Reparatur</h3>
+               
+               
+                  <p>Die Reparaturabteilung kann oft Ihre einzigartigen, aber fehlerhaften Transformatoren reparieren oder reproduzieren (auch bei nicht mehr bestehenden Herstellern).</p>
+               
+            </div>
+            <div class="col-4">
+               <div class="iconColumnOuter">
+                  <div class="iconColumnInner"><i class="fa fa-sun-o"></i></div>
+               </div>
+               
+                  <h3 id="Heading4">Spezialit&auml;ten</h3>
+               
+               
+                  <p>Von Transformatoren f&uuml;r Universit&auml;ten bis hin zu Z&uuml;ndspulen f&uuml;r Flugzeug&shy;triebwerke, unsere Produkte werden in allen Bereichen eingesetzt, in denen Qualit&auml;t und Zuverl&auml;ssigkeit unerl&auml;sslich sind.</p>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <a name="producten" id="producten" title="Produkte" ></a>
+<div id="wb_producten">
+      <div class="parallax"></div>
+      <div id="producten-overlay"></div>
+      <div id="_producten">
+         <div class="row">
+            <div class="col-1">
+               
+                  <h2 id="Heading6">Produkte</h2>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_product_collage">
+		<div id="collage_background">
+			<img id="collage_hero_img_1" src="electro-combo-2.webp" alt="!!foto van &eacute;&eacute;n van onze hoogspanningsvoedingen"  title="!!foto van &eacute;&eacute;n van onze hoogspanningsvoedingen" >
+			<img id="collage_hero_img_2" src="pic0016.webp" alt="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen"  title="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen" >
+			<img id="collage_hero_img_3" src="IMG_20220408_162558.webp" alt="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen"  title="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen" >
+			<img id="collage_hero_img_4" src="IMG_20220408_141922.webp" alt="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen"  title="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen" >
+			<img id="collage_hero_img_5" src="pic00010-clipped.webp" alt="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen"  title="!!foto van &eacute;&eacute;n van onze hoogspanningstransformator uitvoeringen" >
+		</div>
+		<div id="collage_infochunks">
+	
+<div id="collage_blurb_no_1" class="collage_text_blurb">
+<div id="layout-shape-for-collage-no-1"></div>
+<p>Picardi B.V. ist auf Hochspannungstechnologie spezialisiert.</p>
+<p>Wir sind Ihr Partner, wenn Sie einen zuverl&auml;ssigen Hersteller von Hochspannungstransformatoren und elektronischen Netzteilen suchen.</p>
+<p>Wir beliefern internationale Konzerne im Bereich Luftreinigung, Wasseraufbereitung, Z&uuml;ndtechnik &amp; Ionisierung.</p>
+</div>
+		
+<div id="collage_blurb_no_2" class="collage_text_blurb">
+<p>Unsere Produkte kommen &uuml;berall dort zum Einsatz, wo es auf Hochspannung ankommt, u.a.</p>
+<ul>
+<li>galvanische Trennungstransformatoren</li>
+<li>einstellbare Netzteile<br>(Stromquellen, Spannungsquellen)</li>
+<li>verkapseln von Elektronikteilen und Produkte</li>
+<li>Z&uuml;ndspule &amp; Bobine</li>
+<li>verschiedene wissenschaftliche Anwendungen</li>
+</ul>
+<p>Selbstverst&auml;ndlich werden unsere Netzteile nach Wunsch geliefert mit galvanisch getrennter Kommunikation zum <em>computergest&uuml;tzte &Uuml;berwachung</em> und <em>Steuerung</em>, alles basiert auf Standardprotokollen, einschlie&szlig;lich Modbus.</p>
+</div>
+		
+<div id="collage_blurb_no_3" class="collage_text_blurb">
+<h3>Sie treffen uns &uuml;berall!</h3>
+<p>Von Picardi entwickelte Netzteile und Transformatoren werden verwendet f&uuml;r</p>
+<ul>
+<li>hocheffiziente elektrostatische Luftreinigung</li>
+<li>Nachhaltige Technik gegen Feinstaub</li>
+<li>Trinkwasseraufbereitung</li>
+<li>Poolwasserreinigung</li>
+<li>Desinfektion von Obst und Gem&uuml;se zur Verl&auml;ngerung der Haltbarkeit</li>
+</ul>
+</div>
+		
+<div id="collage_blurb_no_4" class="collage_text_blurb">
+<p>Unsere Produkte treffen Sie in Ger&auml;ten, die statische Aufladungen entfernen oder aufbringen, wie z.B.</p>
+<ul>
+<li>Verpackungsmaschinen</li>
+<li>Kopierer</li>
+<li>Mikroelektronik-Montageausr&uuml;stung</li>
+</ul>
+</div>
+		
+<div id="collage_blurb_no_5" class="collage_text_blurb">
+<p>Netzteile f&uuml;r <em>Sonderbeleuchtung</em> geh&ouml;ren dabei auch zu unserem Sortiment.</p>
+<ul>
+<li>Neonschilde</li>
+<li>Neon-Werbebeleuchtung</li>
+</ul>
+</div>
+		
+<div id="collage_blurb_no_6" class="collage_text_blurb">
+<p>Picardi entwickelt und fertigt Stromversorgungen f&uuml;r Ger&auml;te, die elektrochemische Reaktionen ausl&ouml;sen, wie z.B.</p>
+<ul>
+<li>Ozongeneratoren</li>
+<li>Bombarder-Transformatoren</li>
+</ul>
+</div>
+		
+<div id="collage_blurb_no_7" class="collage_text_blurb">
+<p>Unsere Stromversorgungen sind das Herzst&uuml;ck von Ger&auml;ten, die Hochspannung zum Trennen von Fl&uuml;ssigkeiten oder Gasen verwenden, wie z.B.</p>
+<ul>
+<li>elektrostatische Luftfilter</li>
+<li>Elektrophoreseger&auml;te</li>
+</ul>
+</div>
+		
+</div>
+		
+	</div>
+   <a name="about" id="about" title="&Uuml;ber uns" ></a>
+<div id="wb_about">
+      <div class="parallax"></div>
+      <div id="about-overlay"></div>
+      <div id="_about">
+         <div class="row">
+            <div class="col-1">
+               
+                  <h2 id="Heading7">&Uuml;ber uns</h2>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_about_texts">
+      <div id="about_texts">
+         <div class="row">
+            <div class="col-1">
+               <div class="col-1-padding">
+                  <p>Picardi B.V. ist ein alteingesessener Familienunternehmen, das 1975 von Herrn G. Wessels mit dem Ziel gegr&uuml;ndet wurde, qualitativ hochwertige Hochspannungsprodukte mit langer Lebensdauer herzustellen.</p>
+<p>Das Unternehmen war von Anfang an in Vroomshoop ans&auml;ssig, einem kleinen Dorf am Kanal am Rande von Twente.</p>
+<p>Die Produktion wurde zun&auml;chst in einem kleinen Raum hinter dem Haus am Vriezenveenseweg 31 durchgef&uuml;hrt; das Unternehmen w&auml;chst stetig und 1993 folgt der Umzug in die Gesch&auml;ftsr&auml;ume am Vriezenveenseweg 34a.</p>
+<p>Im Jahr 2000 &uuml;bernimmt der Sohn die Nachfolge seines Vaters: Hans Wessels gr&uuml;ndet einen F&amp;E-Bereich mit ausschlie&szlig;lichem Fokus auf hocheffiziente elektronische Hochspannungsversorgungen, wiederum getrieben von der Strategie, durch Material- und Energieeffizienz unsere Umwelt nachhaltig zu sch&uuml;tzen und schonen.</p>
+<p>Aus gesundheitlichen Gr&uuml;nden tritt er am 1. April 2018 als Direktor zur&uuml;ck und Johan Gerrits &ndash; der bereits seit 36 &ZeroWidthSpace;&ZeroWidthSpace;Jahren bei Picardi B.V. t&auml;tig ist &ndash; wird zum neuen Direktor ernannt.</p>
+<p>2020 &uuml;bernimmt Johan Gerrits das Unternehmen komplett; im Vorgriff auf die internationale Umweltgesetzgebung wird die Forschung intensiviert und die fr&uuml;her gewonnenen Erkenntnisse flie&szlig;en in neue Hochfrequenz-Produktserien ein, die unter anderem f&uuml;r Feinstaub- und Viruskontrolle eingesetzt werden.<br>Unter dieser neuen F&uuml;hrung bleibt die urspr&uuml;ngliche Ideologie (effizienter und sparsamer Umgang mit unseren nat&uuml;rlichen Ressourcen) im Vordergrund. Die Strategie: &bdquo;Produkte ohne Sorgen.&ldquo; Denn weniger Abfall und Umweltverschmutzung beginnt mit weniger St&ouml;rungen, weniger Ausfall, weniger Wartung und mehr Kontinuit&auml;t bestehender Produkte.</p>
+               </div>
+            </div>
+            <div class="col-2">
+               <div class="col-2-padding">
+                  <div id="wb_anniversary-45yr">
+                     <img src="45jaarv2.webp" id="anniversary-45yr" alt="!!Picardi: 45-jarig jubileum van ons bedrijf: 22 februari 1975 &ndash; 22 februari 2022"  class="Image-HeroVertical" title="!!Picardi: 45-jarig jubileum van ons bedrijf: 22 februari 1975 &ndash; 22 februari 2022" >
+                  </div>
+                  <p>Picardi B.V. verfolgt von Anfang an eine Zwei-S&auml;ulen-Strategie mit klarem Augenmerk auf umweltorientierte Forschung und Entwicklung: minimale Verschwendung, maximale Qualit&auml;t. Hand in Hand mit unserer Twentscher N&uuml;chternheit.</p>
+<p>Unsere kontinuierlichen Bem&uuml;hungen haben dazu gef&uuml;hrt, dass wir &uuml;ber ein reiches Wissen und langj&auml;hrige Erfahrung mit verschiedenen Materialien, Designs und Produktionsmethoden verf&uuml;gen.</p>
+<p>Beginnend 1975 mit dem klassischem &laquo;50 Hertz&raquo; sind wir 2022 zum Spezialisten gewachsen: Experte in der Entwicklung (sehr) hocheffizienter elektronischer Hochfrequentstromversorgungen f&uuml;r verschiedene Hochspannungsanwendungen, die sich problemlos in bestehende oder neue Steuerungssysteme integrieren lassen.</p>
+<p>&bdquo;Nachhaltig sch&uuml;tzen und schonen von unsere Umwelt durch Material- und Energieeffizienz&ldquo; erfordert auch soziales Engagement. Denn stolz sind wir nicht nur auf unsere Produkte, sondern auch stolz auf die bemerkenswert geringe Fluktuation in unserem Unternehmen: Alt und Jung arbeiten Seite an Seite und miteinander bei unserem anerkanntem Ausbildungsbetrieb.<br>Wir bleiben ein wachsendes Familienunternehmen: 2022 besteht die Familie Picardi aus 12 Kernmitgliedern jeden Alters.</p>
+                  <div id="wb_leerbedrijf">
+                     <img src="SBB-Leerbedrijf2.webp" id="leerbedrijf" alt="!!Erkend Leerbedrijf logo"  class="Image-HeroVertical" title="!!Erkend Leerbedrijf logo" >
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <a name="contact" id="contact" title="Kontaktinformationen" ></a>
+<div id="wb_contact">
+      <div class="parallax"></div>
+      <div id="contact-overlay"></div>
+      <div id="_contact">
+         <div class="row">
+            <div class="col-1">
+               
+                  <h2 id="Heading8">Kontaktinformationen</h2>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_location">
+      <div id="location">
+         <div class="col-1">
+            <div class="col-1-padding">
+               <div id="wb_location-text">
+                  <p class="emphasized-heading">Picardi B.V.</p>
+                  <p>Vriezenveenseweg 34a</p>
+                  <p>Vroomshoop</p>
+                  <p>Die Niederlande (NL)</p>
+                  
+               </div>
+               <div id="wb_phone-numbers">
+                  <p><span class="fa-fw fa">&#xF095;</span> <a href="tel:+31546645774">+31 (0)546 645774</a></p>
+                  <p><span class="fa-fw fa mobile-phone-icon">&#xF10B;</span> <a href="tel:+31644779171">+31 (0)6 44779171</a></p>
+               </div>
+               
+                  <img src="Signal_logo_2020-inverse-color.svg" id="SignalAppLink" alt="!!(social media app) Signal logo"  title="!!(social media app) Signal logo" >
+               
+               <div id="wb_email-info">
+                  <p><span class="fa-fw fa">&#xF0E0;</span> <a href="mailto:info@picardi.nl?subject=Anfrage (&uuml;ber die Picardi Website)">info@picardi.nl</a></p>
+                  
+               </div>
+               <div id="wb_KvK-info">
+                  <p>USt-IdNr. NL812731499B01</p>
+                  <p>Handelskammer &numero; 05044651</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-2">
+            <div class="col-2-padding">
+               <iframe name="GoogleMapsFrame" id="InlineFrame1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2431.6078986636808!2d6.574056446777173!3d52.450017294683946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7ff3b6607f771%3A0x42414b91da72c244!2sPicardi+B.V.!5e0!3m2!1snl!2snl!4v1491558940484" "="" loading="lazy" scrolling="no" title="!!Google Maps: onze bedrijfslocatie" >!!Google Maps: onze bedrijfslocatie</iframe>
+            </div>
+         </div>
+         <div class="col-3">
+            <div class="col-3-padding">
+               <table id="openingstijden">
+                  <thead>
+                     <tr>
+                        <th colspan="2" class="cell0">&Ouml;ffnungszeiten:</th>
+                     </tr>
+                  </thead>
+                  <tbody><tr>
+                     <td class="cell1">Montag</td>
+                     <td class="cell1">7:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <td class="cell1">Dienstag</td>
+                     <td class="cell1">7:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <td class="cell1">Mittwoch</td>
+                     <td class="cell1">7:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <td class="cell1">Donnerstag</td>
+                     <td class="cell1">7:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                     <td class="cell1">Freitag</td>
+                     <td class="cell1">7:00 - 12:30</td>
+                  </tr>
+               </tbody></table>
+               
+                  <img src="vroomshoop1.webp" id="vroomshoop" alt="!!Welkom in Vroomshoop"  title="!!Welkom in Vroomshoop" >
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   <div id="wb_footer">
+      <div id="footer">
+         <div class="row">
+            <div class="col-1">
+               
+                  <p>Copyright &copy; 2022 Picardi B.V. &mdash; Alle Rechte vorbehalten</p>
+               
+            </div>
+         </div>
+      </div>
+   </div>
+   
+</body></html>
