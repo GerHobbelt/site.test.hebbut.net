@@ -3416,7 +3416,7 @@ body {
     background-color: black;	
 	
 	//font-size: 16px !important;
-    font-size: calc(100vw / 40);   /* make the font-size dependent on the viewport; this makes the entire collage design kinda 'fixed' i.e. rescaling with the user display */
+    font-size: calc(100vw / 90);   /* make the font-size dependent on the viewport; this makes the entire collage design kinda 'fixed' i.e. rescaling with the user display */
 	line-height: 1.35em;
 	
 	font-family: 'Picardi';
@@ -3566,7 +3566,7 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
    display: flex;
    text-align: left;
    width: 100%;
-   /* height: 65vw; */  /* use the `vw` CSS unit to make the enforced height relative to the screen/display WIDTH: this SHOULD result in a constant aspect ratio. */
+   height: 65vw;  /* use the `vw` CSS unit to make the enforced height relative to the screen/display WIDTH: this SHOULD result in a constant aspect ratio. */
    background-color: #000000;
    //border: 0px solid #CCCCCC;
    box-sizing: border-box;
@@ -3590,7 +3590,7 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
 }
 
 #collage_background {
-	/* position: absolute; */
+	position: absolute;
 	//top: 0;
 	top: 2em;
 	left: 0;
@@ -3601,9 +3601,9 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
 
 #collage_background img {
 	display: block;
-	/* position: absolute; */
-max-width:;max-height: 2;max-width: 20em !important;	//border: solid 2px green;
-max-height: 20em !important;}
+	position: absolute;
+	//border: solid 2px green;
+}
 
 
 /* images: largest size (height or width) is used to determine actual size; SHOULD correspond with the one we used for the 1024px output/export when we made the webp images for these! */
@@ -3644,7 +3644,7 @@ img#collage_hero_img_5 {
 }
 
 #collage_infochunks {
-	/* position: absolute; */
+	position: absolute;
 	//top: 0;
     top: 2em;
 	left: 0;
@@ -3656,7 +3656,7 @@ img#collage_hero_img_5 {
 
 #collage_infochunks > div {
 	//border: 2px solid purple;
-	/* position: absolute; */
+	position: absolute;
 }
 
 #collage_infochunks ul {
@@ -4138,8 +4138,6 @@ name {
 		flex-basis: 100% !important;
 	}
 }
-
-
 
 
 /*----------------------------------------------*/

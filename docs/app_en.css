@@ -4106,6 +4106,40 @@ name {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 930px) {
+
+	body {
+		font-size: calc(100vw / 40);
+	}
+
+
+	#location > .col-1, #location > .col-2, #location > .col-3 {
+		-webkit-flex-basis: 50% !important;
+		flex-basis: 50% !important;
+		//max-width: 100% !important;
+	}
+
+	/* google maps IFRAME drops below the other 2 columns */
+	#location > .col-2 {
+		order: 3;
+		flex-basis: 100% !important;
+	}
+}
+
+
 /*----------------------------------------------*/
 
 
