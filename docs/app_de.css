@@ -111,19 +111,19 @@ h6, .h6
    color: #FFFFFF;
    background-color: transparent;
 }
-@media only screen and (min-width: 930px) and (max-width: 1023px)
-{
-}
-@media only screen and (max-width: 929px)
-{
-}
+
+/* NUKED */
+
+
+/* NUKED */
+
 
 
 /*----------------------------------------------*/
 
 body
 {
-   background-color: #FFFFFF;
+   
    
    
    font-weight: normal;
@@ -158,20 +158,12 @@ input:focus, textarea:focus, select:focus
 {
    visibility: hidden;
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
-{
-   #wb_home, #wb_product_collage
-   {
-      background-attachment: scroll !important;
-   }
-}
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
-{
-   #wb_home, #wb_product_collage
-   {
-      background-attachment: scroll !important;
-   }
-}
+
+/* NUKED */
+
+
+/* NUKED */
+
 #wb_header
 {
    clear: both;
@@ -259,15 +251,9 @@ input:focus, textarea:focus, select:focus
    justify-content: flex-end;
    text-align: right;
 }
-@media (max-width: 0px)
-{
-#header > .col-1, #header > .col-2
-{
-   -webkit-flex-basis: 100% !important;
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #wb_home
 {
    clear: both;
@@ -335,15 +321,9 @@ input:focus, textarea:focus, select:focus
    justify-content: center;
    text-align: center;
 }
-@media (max-width: 0px)
-{
-#home > .col-1
-{
-   -webkit-flex-basis: 100% !important;
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #home-overlay
 {
    position: absolute;
@@ -441,14 +421,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 810px)
-{
-#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 
 
 #IconPowerSupply i
@@ -620,14 +595,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 0px)
-{
-#_producten > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #producten-overlay
 {
    position: absolute;
@@ -677,10 +647,9 @@ input:focus, textarea:focus, select:focus
 
 
 
-@media (max-width: 600px)
-{
 
-}
+/* NUKED */
+
 #wb_about
 {
    clear: both;
@@ -742,22 +711,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 0px)
-{
-#wb_about, #_about
-{
-   height: auto;
-}
-#_about > div[class^="col-"]
-{
-   height: 33vh;
-}
-#_about > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #about-overlay
 {
    position: absolute;
@@ -877,14 +833,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 810px)
-{
-#about_texts > .row > .col-1, #about_texts > .row > .col-2
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #wb_contact
 {
    clear: both;
@@ -946,22 +897,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 600px)
-{
-#wb_contact, #_contact
-{
-   height: auto;
-}
-#_contact > div[class^="col-"]
-{
-   height: 33vh;
-}
-#_contact > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #contact-overlay
 {
    position: absolute;
@@ -1125,15 +1063,9 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    padding: 0px 25px 0px 25px;
 }
-@media (max-width: 930px)
-{
-#location > .col-1, #location > .col-2, #location > .col-3
-{
-   -webkit-flex-basis: 100% !important;
-   flex-basis: 100% !important;
-   max-width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #wb_location-text 
 {
    background-color: transparent;
@@ -1225,14 +1157,9 @@ input:focus, textarea:focus, select:focus
 {
    clear: both;
 }
-@media (max-width: 600px)
-{
-#footer > .row > .col-1
-{
-   float: none;
-   width: 100% !important;
-}
-}
+
+/* NUKED */
+
 #wb_Text16 
 {
    background-color: transparent;
@@ -1840,162 +1767,9 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
 }
-@media all and (max-width:810px) 
-{
-#wb_ResponsiveMenu1
-{
-   margin: 0;
-   text-align: left;
-}
-#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
-{
-   
-   font-weight: normal;
-   font-style: normal;
-   padding: 5px 5px 5px 5px;
-}
-#wb_ResponsiveMenu1 .toggle + a
-{
-   display: none !important;
-}
-.ResponsiveMenu1 
-{
-   display: none;
-   
-}
-#ResponsiveMenu1 
-{
-   background-color: transparent;
-   display: none;
-}
-#wb_ResponsiveMenu1 > ul > li > a 
-{
-   height: auto !important;   margin: 0;
-}
-#wb_ResponsiveMenu1 .toggle 
-{
-   display: block;
-   
-   background-color: rgba(0,0,0,0.00);
-   color: #FFFFFF;
-   padding: 0px 5px 0px 5px;
-   
-   text-decoration: none;
-   border: none;
-   position: relative;
-}
-#wb_ResponsiveMenu1 .toggle:hover 
-{
-   background-color: #696969;
-   background-color: rgba(105,105,105,0.00);
-   color: #F8E0BE;
-}
-[id^=ResponsiveMenu1-submenu]:checked + ul 
-{
-   display: block !important;
-}
-#ResponsiveMenu1-title
-{
-   height: 47px !important;
-   
-   text-align: center;
-}
-#wb_ResponsiveMenu1 ul li 
-{
-   display: block;
-   width: 100% !important;
-   text-align: right;
-}
-#wb_ResponsiveMenu1 ul ul .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
-   padding: 0 10px;
-}
-#wb_ResponsiveMenu1 a:hover,
-#wb_ResponsiveMenu1 ul ul ul a 
-{
-   
-   color: #FFFFFF;
-}
-#wb_ResponsiveMenu1 ul li ul li .toggle,
-#wb_ResponsiveMenu1 ul ul a 
-{
-   
-   color: #FFFFFF;
-}
-#wb_ResponsiveMenu1 ul ul ul a 
-{
-   padding: 5px 5px 5px 15px;
-}
-#wb_ResponsiveMenu1 ul li a 
-{
-   text-align: right;
-}
-#wb_ResponsiveMenu1 ul li a br 
-{
-   display: none;
-}
-#wb_ResponsiveMenu1 ul li i 
-{
-   margin-right: 7px;
-}
-#wb_ResponsiveMenu1 ul ul 
-{
-   float: none;
-   position: static;
-}
-#wb_ResponsiveMenu1 ul ul li:hover > ul,
-#wb_ResponsiveMenu1 ul li:hover > ul 
-{
-   display: none;
-}
-#wb_ResponsiveMenu1 ul ul li 
-{
-   display: block;
-   width: 100%;
-}
-#wb_ResponsiveMenu1 ul ul ul li 
-{
-   position: static;
-}
-#ResponsiveMenu1-icon 
-{
-   display: block;
-   position: absolute;
-   right: 15px;
-   top: 11px;
-}
-#ResponsiveMenu1-icon span 
-{
-   display: block;
-   margin-top: 4px;
-   height: 2px;
-   background-color: #FFFFFF;
-   color: #FFFFFF;
-   width: 24px;
-}
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover
-{
-   background-color: #4F4F4F;
-   color: #F8E0BE;
-}
-#wb_ResponsiveMenu1 .toggle .arrow-down 
-{
-   border-top-color: #FFFFFF;
-}
-#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
-{
-   border-top-color: #F8E0BE;
-}
-#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
-{
-   border-top-color: #FFFFFF;
-}
-#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
-{
-   border-top-color: #F8E0BE;
-}
-}
+
+/* NUKED */
+
 
 
 
@@ -2272,1088 +2046,12 @@ input:focus, textarea:focus, select:focus
    width: 100%;
    
 }
-@media only screen and (min-width: 930px) and (max-width: 1023px)
-{
-body
-{
-   background-color: #FFFFFF;
-   background-image: none;
-}
-#wb_header
-{
-   visibility: visible;
-   display: table;
-}
-#wb_header
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#header
-{
-   padding: 20px 0px 20px 0px;
-}
-#wb_home
-{
-   visibility: visible;
-   display: table;
-}
-#wb_home
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#home
-{
-   padding: 145px 0px 45px 0px;
-}
-#wb_features
-{
-   visibility: visible;
-   display: table;
-}
-#wb_features
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#features
-{
-   padding: 30px 15px 20px 15px;
-}
-#features .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
+
+/* NUKED */
 
 
-#IconPowerSupply i
-{
-   
-   
-   width: 72px;
-}
+/* NUKED */
 
-
-#IconRepairs i
-{
-   
-   
-   width: 77px;
-}
-
-
-#IconSpecials i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconTransformer i
-{
-   
-   
-   width: 72px;
-}
-#wb_Heading1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_producten
-{
-   visibility: visible;
-   display: table;
-}
-#wb_producten
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_producten
-{
-   padding: 130px 15px 130px 15px;
-}
-#_producten .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-#wb_about
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_about
-{
-   padding: 130px 15px 130px 15px;
-}
-#_about .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_about_texts
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about_texts
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#about_texts
-{
-   padding: 80px 15px 80px 15px;
-}
-#about_texts .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_contact
-{
-   visibility: visible;
-   display: table;
-}
-#wb_contact
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_contact
-{
-   padding: 130px 15px 130px 15px;
-}
-#_contact .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_location
-{
-   visibility: visible;
-   display: table;
-}
-#wb_location
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#location
-{
-   padding: 80px 0px 80px 0px;
-}
-#wb_location-text
-{
-   visibility: visible;
-   display: block;
-}
-#wb_location-text
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_footer
-{
-   visibility: visible;
-   display: table;
-}
-#wb_footer
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#footer
-{
-   padding: 50px 15px 50px 15px;
-}
-#footer .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_Text16
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text16
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   
-}
-
-
-#InlineFrame1
-{
-   width: 100%;
-   height: 378px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#openingstijden
-{
-   visibility: visible;
-   display: table;
-}
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text7
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-#wb_Text10
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text10
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text11
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 20px 0px;
-   text-align: left;
-   
-}
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text12
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 20px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_email-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_email-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text14
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text15
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text17
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text17
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 20px 0px 0px 0px;
-   text-align: right;
-}
-
-
-
-
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   
-   font-weight: normal;
-   
-   margin: 70px 0px 0px 0px;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text6
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_PageSubTitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_PageSubTitleText
-{
-   margin: 0;
-   padding: 20px 0px 20px 0px;
-}
-#wb_phone-numbers
-{
-   visibility: visible;
-   display: block;
-}
-#wb_phone-numbers
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_KvK-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_KvK-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-}
-@media only screen and (max-width: 929px)
-{
-body
-{
-   
-   background-image: none;
-}
-#wb_header
-{
-   visibility: visible;
-   display: table;
-}
-#wb_header
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#header
-{
-   padding: 20px 0px 20px 0px;
-}
-#wb_home
-{
-   visibility: visible;
-   display: table;
-}
-#wb_home
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#home
-{
-   padding: 145px 0px 45px 0px;
-}
-#wb_features
-{
-   visibility: visible;
-   display: table;
-}
-#wb_features
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#features
-{
-   padding: 30px 15px 20px 15px;
-}
-#features .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-#IconPowerSupply i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconRepairs i
-{
-   
-   
-   width: 77px;
-}
-
-
-#IconSpecials i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconTransformer i
-{
-   
-   
-   width: 72px;
-}
-#wb_Heading1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_producten
-{
-   visibility: visible;
-   display: table;
-}
-#wb_producten
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_producten
-{
-   padding: 130px 15px 130px 15px;
-}
-#_producten .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-#wb_about
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_about
-{
-   padding: 130px 15px 130px 15px;
-}
-#_about .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_about_texts
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about_texts
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#about_texts
-{
-   padding: 80px 15px 80px 15px;
-}
-#about_texts .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_contact
-{
-   visibility: visible;
-   display: table;
-}
-#wb_contact
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_contact
-{
-   padding: 130px 15px 130px 15px;
-}
-#_contact .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_location
-{
-   visibility: visible;
-   display: table;
-}
-#wb_location
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#location
-{
-   padding: 80px 0px 80px 0px;
-}
-#wb_location-text
-{
-   visibility: visible;
-   display: block;
-}
-#wb_location-text
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_footer
-{
-   visibility: visible;
-   display: table;
-}
-#wb_footer
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#footer
-{
-   padding: 50px 15px 50px 15px;
-}
-#footer .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_Text16
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text16
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   
-}
-
-
-#InlineFrame1
-{
-   width: 100%;
-   height: 378px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#openingstijden
-{
-   visibility: visible;
-   display: table;
-}
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text7
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-#wb_Text10
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text10
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text11
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 20px 0px;
-   text-align: left;
-   
-}
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text12
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 20px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_email-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_email-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text14
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text15
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text17
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text17
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 20px 0px 0px 0px;
-   text-align: right;
-}
-
-
-
-
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   
-   font-weight: normal;
-   
-   margin: 70px 0px 0px 0px;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text6
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_PageSubTitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_PageSubTitleText
-{
-   margin: 0;
-   padding: 20px 0px 20px 0px;
-}
-#wb_phone-numbers
-{
-   visibility: visible;
-   display: block;
-}
-#wb_phone-numbers
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_KvK-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_KvK-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-}
 
 
 /*----------------------------------------------*/
@@ -3603,6 +2301,9 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
 	display: block;
 	position: absolute;
 	//border: solid 2px green;
+	
+	/* make the image title 'tooltip' show up properly on screen */
+	z-index: 1;
 }
 
 
@@ -4119,6 +2820,1437 @@ name {
 
 
 
+
+
+
+@media only screen and (min-width: 930px) and (max-width: 1023px)
+{
+}
+@media only screen and (max-width: 929px)
+{
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)
+{
+   #wb_home, #wb_product_collage
+   {
+      background-attachment: scroll !important;
+   }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5)
+{
+   #wb_home, #wb_product_collage
+   {
+      background-attachment: scroll !important;
+   }
+}
+
+
+
+@media (max-width: 0px)
+{
+#header > .col-1, #header > .col-2
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+
+@media (max-width: 0px)
+{
+#home > .col-1
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+
+@media (max-width: 810px)
+{
+#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+@media (max-width: 0px)
+{
+#_producten > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+@media (max-width: 600px)
+{
+
+}
+
+@media (max-width: 0px)
+{
+#wb_about, #_about
+{
+   height: auto;
+}
+#_about > div[class^="col-"]
+{
+   height: 33vh;
+}
+#_about > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+@media (max-width: 810px)
+{
+#about_texts > .row > .col-1, #about_texts > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+@media (max-width: 600px)
+{
+#wb_contact, #_contact
+{
+   height: auto;
+}
+#_contact > div[class^="col-"]
+{
+   height: 33vh;
+}
+#_contact > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+@media (max-width: 930px)
+{
+#location > .col-1, #location > .col-2, #location > .col-3
+{
+   -webkit-flex-basis: 100% !important;
+   flex-basis: 100% !important;
+   max-width: 100% !important;
+}
+}
+
+@media (max-width: 600px)
+{
+#footer > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:810px) 
+{
+#wb_ResponsiveMenu1
+{
+   margin: 0;
+   text-align: left;
+}
+#wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
+{
+   
+   font-weight: normal;
+   font-style: normal;
+   padding: 5px 5px 5px 5px;
+}
+#wb_ResponsiveMenu1 .toggle + a
+{
+   display: none !important;
+}
+.ResponsiveMenu1 
+{
+   display: none;
+   
+}
+#ResponsiveMenu1 
+{
+   background-color: transparent;
+   display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > a 
+{
+   height: auto !important;   margin: 0;
+}
+#wb_ResponsiveMenu1 .toggle 
+{
+   display: block;
+   
+   background-color: rgba(0,0,0,0.00);
+   color: #FFFFFF;
+   padding: 0px 5px 0px 5px;
+   
+   text-decoration: none;
+   border: none;
+   position: relative;
+}
+#wb_ResponsiveMenu1 .toggle:hover 
+{
+   background-color: #696969;
+   background-color: rgba(105,105,105,0.00);
+   color: #F8E0BE;
+}
+[id^=ResponsiveMenu1-submenu]:checked + ul 
+{
+   display: block !important;
+}
+#ResponsiveMenu1-title
+{
+   height: 47px !important;
+   
+   text-align: center;
+}
+#wb_ResponsiveMenu1 ul li 
+{
+   display: block;
+   width: 100% !important;
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul ul .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   padding: 0 10px;
+}
+#wb_ResponsiveMenu1 a:hover,
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle,
+#wb_ResponsiveMenu1 ul ul a 
+{
+   
+   color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul ul ul a 
+{
+   padding: 5px 5px 5px 15px;
+}
+#wb_ResponsiveMenu1 ul li a 
+{
+   text-align: right;
+}
+#wb_ResponsiveMenu1 ul li a br 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul li i 
+{
+   margin-right: 7px;
+}
+#wb_ResponsiveMenu1 ul ul 
+{
+   float: none;
+   position: static;
+}
+#wb_ResponsiveMenu1 ul ul li:hover > ul,
+#wb_ResponsiveMenu1 ul li:hover > ul 
+{
+   display: none;
+}
+#wb_ResponsiveMenu1 ul ul li 
+{
+   display: block;
+   width: 100%;
+}
+#wb_ResponsiveMenu1 ul ul ul li 
+{
+   position: static;
+}
+#ResponsiveMenu1-icon 
+{
+   display: block;
+   position: absolute;
+   right: 15px;
+   top: 11px;
+}
+#ResponsiveMenu1-icon span 
+{
+   display: block;
+   margin-top: 4px;
+   height: 2px;
+   background-color: #FFFFFF;
+   color: #FFFFFF;
+   width: 24px;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover
+{
+   background-color: #4F4F4F;
+   color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 .toggle:hover .arrow-down, #wb_ResponsiveMenu1 li .active .arrow-down
+{
+   border-top-color: #F8E0BE;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle .arrow-down 
+{
+   border-top-color: #FFFFFF;
+}
+#wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
+{
+   border-top-color: #F8E0BE;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 930px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 20px 0px 20px 0px;
+}
+#wb_home
+{
+   visibility: visible;
+   display: table;
+}
+#wb_home
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#home
+{
+   padding: 145px 0px 45px 0px;
+}
+#wb_features
+{
+   visibility: visible;
+   display: table;
+}
+#wb_features
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#features
+{
+   padding: 30px 15px 20px 15px;
+}
+#features .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#IconPowerSupply i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconRepairs i
+{
+   
+   
+   width: 77px;
+}
+
+
+#IconSpecials i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconTransformer i
+{
+   
+   
+   width: 72px;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_producten
+{
+   visibility: visible;
+   display: table;
+}
+#wb_producten
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_producten
+{
+   padding: 130px 15px 130px 15px;
+}
+#_producten .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+
+
+#wb_about
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_about
+{
+   padding: 130px 15px 130px 15px;
+}
+#_about .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_about_texts
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about_texts
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#about_texts
+{
+   padding: 80px 15px 80px 15px;
+}
+#about_texts .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contact
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contact
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_contact
+{
+   padding: 130px 15px 130px 15px;
+}
+#_contact .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_location
+{
+   visibility: visible;
+   display: table;
+}
+#wb_location
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#location
+{
+   padding: 80px 0px 80px 0px;
+}
+#wb_location-text
+{
+   visibility: visible;
+   display: block;
+}
+#wb_location-text
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_footer
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footer
+{
+   padding: 50px 15px 50px 15px;
+}
+#footer .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+}
+
+
+#InlineFrame1
+{
+   width: 100%;
+   height: 378px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#openingstijden
+{
+   visibility: visible;
+   display: table;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text3
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text7
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text5
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 20px 0px;
+   text-align: left;
+   
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_email-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_email-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 20px 0px 0px 0px;
+   text-align: right;
+}
+
+
+
+
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text4
+{
+   
+   font-weight: normal;
+   
+   margin: 70px 0px 0px 0px;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text6
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_PageSubTitleText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_PageSubTitleText
+{
+   margin: 0;
+   padding: 20px 0px 20px 0px;
+}
+#wb_phone-numbers
+{
+   visibility: visible;
+   display: block;
+}
+#wb_phone-numbers
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_KvK-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_KvK-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+}
+
+@media only screen and (max-width: 929px)
+{
+body
+{
+   
+   background-image: none;
+}
+#wb_header
+{
+   visibility: visible;
+   display: table;
+}
+#wb_header
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#header
+{
+   padding: 20px 0px 20px 0px;
+}
+#wb_home
+{
+   visibility: visible;
+   display: table;
+}
+#wb_home
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#home
+{
+   padding: 145px 0px 45px 0px;
+}
+#wb_features
+{
+   visibility: visible;
+   display: table;
+}
+#wb_features
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#features
+{
+   padding: 30px 15px 20px 15px;
+}
+#features .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+#IconPowerSupply i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconRepairs i
+{
+   
+   
+   width: 77px;
+}
+
+
+#IconSpecials i
+{
+   
+   
+   width: 72px;
+}
+
+
+#IconTransformer i
+{
+   
+   
+   width: 72px;
+}
+#wb_Heading1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading2
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading3
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_Heading4
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#wb_producten
+{
+   visibility: visible;
+   display: table;
+}
+#wb_producten
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_producten
+{
+   padding: 130px 15px 130px 15px;
+}
+#_producten .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+
+
+
+
+#wb_about
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_about
+{
+   padding: 130px 15px 130px 15px;
+}
+#_about .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_about_texts
+{
+   visibility: visible;
+   display: table;
+}
+#wb_about_texts
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#about_texts
+{
+   padding: 80px 15px 80px 15px;
+}
+#about_texts .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_contact
+{
+   visibility: visible;
+   display: table;
+}
+#wb_contact
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#_contact
+{
+   padding: 130px 15px 130px 15px;
+}
+#_contact .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_location
+{
+   visibility: visible;
+   display: table;
+}
+#wb_location
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#location
+{
+   padding: 80px 0px 80px 0px;
+}
+#wb_location-text
+{
+   visibility: visible;
+   display: block;
+}
+#wb_location-text
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_footer
+{
+   visibility: visible;
+   display: table;
+}
+#wb_footer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#footer
+{
+   padding: 50px 15px 50px 15px;
+}
+#footer .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#wb_Text16
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text16
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: center;
+   
+}
+
+
+#InlineFrame1
+{
+   width: 100%;
+   height: 378px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#openingstijden
+{
+   visibility: visible;
+   display: table;
+}
+#wb_Text2
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text2
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text3
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text3
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text7
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text7
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text5
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text5
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text9
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text9
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+#wb_Text10
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text10
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_Text11
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text11
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 20px 0px;
+   text-align: left;
+   
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 20px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_email-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_email-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+
+
+#wb_Text14
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text14
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text15
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text15
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: center;
+   
+}
+#wb_Text17
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text17
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0;
+   text-align: left;
+   
+}
+#wb_ResponsiveMenu1
+{
+   width: 100%;
+   visibility: visible;
+   display: block;
+   margin: 20px 0px 0px 0px;
+   text-align: right;
+}
+
+
+
+
+#wb_Text4
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text4
+{
+   
+   font-weight: normal;
+   
+   margin: 70px 0px 0px 0px;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_Text6
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text6
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 15px 0px;
+   text-align: left;
+   
+}
+#wb_PageSubTitleText
+{
+   visibility: visible;
+   display: block;
+}
+#wb_PageSubTitleText
+{
+   margin: 0;
+   padding: 20px 0px 20px 0px;
+}
+#wb_phone-numbers
+{
+   visibility: visible;
+   display: block;
+}
+#wb_phone-numbers
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 0px 0px 5px 0px;
+   text-align: left;
+   
+}
+#wb_KvK-info
+{
+   visibility: visible;
+   display: block;
+}
+#wb_KvK-info
+{
+   
+   font-weight: normal;
+   
+   margin: 0;
+   padding: 15px 0px 0px 0px;
+   text-align: left;
+   
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 930px) {
 
 	body {
@@ -4138,6 +4270,7 @@ name {
 		flex-basis: 100% !important;
 	}
 }
+
 
 
 /*----------------------------------------------*/
