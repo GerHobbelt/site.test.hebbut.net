@@ -5732,7 +5732,7 @@ name {
 
 
 
-@media all and (max-width:810px) 
+@media all and (max-width:930px) /* was: 810px */
 {
 #wb_ResponsiveMenu1
 {
@@ -7075,7 +7075,49 @@ body
 	body {
 		font-size: calc(100vw / 72);
 	}
+	
+	#wb_product_collage {
+	    height: 90vw;
+	}	
 
+	img#collage_hero_img_2 {
+	    height: 22%;
+	}
+	
+	img#collage_hero_img_3 {
+	    top: 2em;
+	    right: 4%;
+	    width: 30%;
+	}
+
+	img#collage_hero_img_5 {
+	    height: 40%;
+	}	
+	
+	#collage_blurb_no_3 {
+	    top: 36%;
+	}	
+	
+	#collage_blurb_no_6 {
+	    top: 70%;
+	    left: 43%;
+	    width: 50%;
+	    max-width: 33em;
+	    //border: 2px solid blue;
+	}
+	
+
+
+
+	#about_texts > .row > .col-1 {
+	    padding-right: 3em;
+	    padding-left: 2em;
+	}		
+
+	#about_texts > .row > .col-2 {
+	    padding-right: 2em;
+	    padding-left: 3em;
+	}		
 }
 
 @media (max-width: 1500px) {
@@ -7092,7 +7134,10 @@ body
 	#location > .col-1, #location > .col-2, #location > .col-3 {
 		-webkit-flex-basis: 50% !important;
 		flex-basis: 50% !important;
-		//max-width: 100% !important;
+		
+		max-width: 100% !important;
+		flex-grow: 1;
+		flex-shrink: 0;
 	}
 
 	/* google maps IFRAME drops below the other 2 columns */
@@ -7102,8 +7147,8 @@ body
 
 		width: 80%;
 		/* flex-basis: 50%; */
-		flex-grow: 1;
-		flex-shrink: 0;
+		//flex-grow: 1;
+		//flex-shrink: 0;
 		/* flex-basis: 50%; */
 		margin-right: 0.5em;
 		margin-top: 2em;
@@ -7113,6 +7158,18 @@ body
 	    padding-left: 1em;
 	}
 	
+
+
+
+	#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
+	{
+	   float: none;
+	   width: 100% !important;
+	}
+
+
+
+
 	
 	
 	#wb_anniversary-45yr {
@@ -7128,15 +7185,111 @@ body
 		/* justify-items: end; */
 	}
 
-	#about_texts > .row > .col-1
-	{
-	   padding-right: 1em;
+
+
+
+	
+
+
+
+	#about_texts > .row > .col-1 {
+	    padding-right: 2em;
+	    padding-left: 0.5em;
+	}		
+
+	#about_texts > .row > .col-2 {
+	    padding-right: 0.5em;
+	    padding-left: 2em;
+	}		
+
+
+
+
+
+
+
+	#wb_product_collage {
+	    height: auto !important;
+	}
+	
+	#collage_background {
+	    /* position: relative; */
+	    
+	    /* display: none; */
+	}
+	#collage_background img {
+	    display: block;
+	    /* position: relative; */
+		/* width:  20%; */
+		/* height: 20%; */
+	}	
+	img#collage_hero_img_1 {
+	    bottom: 0;
+	    left: 0;
+	    width: 75%;
+	}
+	img#collage_hero_img_2 {
+	    top: 4em;
+	    right: 2%;
+	    left: initial;
+	    height: 12%;
+	}
+	img#collage_hero_img_3 {
+	    top: 27em;
+	    right: 2%;
+	    width: 56%;
+	}
+	img#collage_hero_img_4 {
+	    top: 44em;
+	    left: initial;
+	    right: 0;
+	    width: 40%;
+	}
+	img#collage_hero_img_5 {
+	    bottom: 19em;
+	    right: 1em;
+	    height: 20%;
 	}
 
-	#about_texts > .row > .col-2
-	{
-	   padding-left: 1em;
+
+	#collage_infochunks {
+	    position: relative;
 	}
+	#collage_infochunks > div {
+	    //position: relative;
+	    position: static;
+	    width: auto;
+	    height: auto;
+	    
+	    padding-left: 1.5em;
+	    padding-right: 1.5em;
+	    margin-bottom: 4em;
+	    margin-top: 2em;
+	    
+	    margin-left: 0;
+	    margin-right: 0;
+	}
+	#collage_infochunks > div:last-child {
+	    padding-bottom: 1em;
+	    margin-bottom: 22em;
+		//margin-right: 8em;
+	}
+	
+	#layout-shape-for-collage-no-1 {
+	    //display: none;
+
+	      /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
+	    
+	    shape-outside: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
+	    clip-path: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
+	    background-color: darkred;
+
+	    height: 108em;
+    	}
+	#collage_blurb_no_1 {
+	    max-width: initial;
+	}
+
 	
 }
 
@@ -7164,11 +7317,16 @@ body
 	   padding-left: 0.5em;
 	}
 
+
+
+
 	#features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
 	{
 	   float: none;
 	   width: 100% !important;
 	}
+
+
 
 	#wb_product_collage {
 	    height: auto !important;

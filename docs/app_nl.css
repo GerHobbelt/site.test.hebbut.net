@@ -7104,7 +7104,20 @@ body
 	    width: 50%;
 	    max-width: 33em;
 	    //border: 2px solid blue;
-	}	
+	}
+	
+
+
+
+	#about_texts > .row > .col-1 {
+	    padding-right: 3em;
+	    padding-left: 2em;
+	}		
+
+	#about_texts > .row > .col-2 {
+	    padding-right: 2em;
+	    padding-left: 3em;
+	}		
 }
 
 @media (max-width: 1500px) {
@@ -7172,15 +7185,22 @@ body
 		/* justify-items: end; */
 	}
 
-	#about_texts > .row > .col-1
-	{
-	   padding-right: 1em;
-	}
 
-	#about_texts > .row > .col-2
-	{
-	   padding-left: 1em;
-	}
+
+
+	
+
+
+
+	#about_texts > .row > .col-1 {
+	    padding-right: 2em;
+	    padding-left: 0.5em;
+	}		
+
+	#about_texts > .row > .col-2 {
+	    padding-right: 0.5em;
+	    padding-left: 2em;
+	}		
 
 
 
@@ -7221,7 +7241,7 @@ body
 	}
 	img#collage_hero_img_4 {
 	    top: 44em;
-	    left: initial;
+	    left: initial !important;  /* !important is quick hack to override the DE language page CSS custom tweak (for all-rez) */
 	    right: 0;
 	    width: 40%;
 	}
@@ -7341,7 +7361,7 @@ body
 	}
 	img#collage_hero_img_4 {
 	    top: 44em;
-	    left: initial;
+	    left: initial !important;  /* !important is quick hack to override the DE language page CSS custom tweak (for all-rez) */
 	    right: 0;
 	    width: 40%;
 	}
