@@ -7241,7 +7241,7 @@ body
 	}
 	img#collage_hero_img_4 {
 	    top: 44em;
-	    left: initial;
+	    left: initial !important;  /* !important is quick hack to override the DE language page CSS custom tweak (for all-rez) */
 	    right: 0;
 	    width: 40%;
 	}
@@ -7361,7 +7361,7 @@ body
 	}
 	img#collage_hero_img_4 {
 	    top: 44em;
-	    left: initial;
+	    left: initial !important;  /* !important is quick hack to override the DE language page CSS custom tweak (for all-rez) */
 	    right: 0;
 	    width: 40%;
 	}
