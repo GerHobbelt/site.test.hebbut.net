@@ -7,7 +7,6 @@
 <title>Picardi B.V. Hoogspanningstechniek - HTTP 404 page</title>
 <meta name="author" content="Picardi B.V." >
 <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-<link href="font-awesome.min.css" rel="stylesheet">
 <link href="app_nl.css" rel="stylesheet">
 <style>
 
@@ -20,22 +19,44 @@
 
 #wb_404 {
     margin-top: 6em;
-    border: 1px solid red;
+    //border: 1px solid red;
 	
 	background-image: url('404.webp');
 
     height: calc(100vh - 6em);
+	min-height: 28em;
 	
 	background-origin: border-box;
-	background-position: center center;
+	background-position: top  center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	align-items: center;
+	/* align-items: center; */
+	
+	/* 
+	Something completely fruity is happening! Remove this border-top line and suddenly the entire DIV is moved *down* by a significant amount! 
+	Couldn't find *why* this was happening; tried multiple things but couldn't pinpoint the culprit.
+	
+	The calc()-based DIV height and H1 tag top margins seem to play a role...
+	
+	Anyway, this is the minimal fix required to keep the DIV where it SHOULD be anyway. Plus this little hack is invisible as it's hidden
+	by the top menu bar overlay. Phew!
+	
+	BTW: 0px border doesn't cut it, it has to have a thickness!
+	*/
+	border-top: 1px solid red;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 0;
+	/* place-items: flex-end; */
+	justify-content: end;
+	/* align-content: flex-end; */
 }
 
 a#wb_404_homelink {
 	color: white;
 	text-decoration: none;
+	display:  block;
 }
 
 a#wb_404_homelink:link { 
@@ -66,9 +87,9 @@ a:visited {
 
 h1 {
     max-width: 38em;
-    margin-top: 1.5em;
+    /* margin-top: 1.5em; */
     text-align: center;
-	margin-top: calc(100vh - 16em) !important;
+	/* margin-top: calc(100vh - 16em) !important; */
 	font-size: 100%;
 }
 
@@ -80,21 +101,24 @@ h1, p {
    color: white;
    text-shadow:
        calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.3em #000,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 0 #000,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 0 #000,
-      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 0 #000,
-       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 0 #000,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 0 #000,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 0 #000,
-      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 0 #000,
-       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 0 #000;
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #000,
+      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #000,
+       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #000,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #000,
+      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #000,
+       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #000;
+
+	padding: 0.5em 0.5em;
+    line-height: 1.5em;
 }
 
 .three-languages {
     display: flex;
     flex-basis: 33%;
     flex-direction: row;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 
 	font-size:  70%;
 	margin-left:  auto;
@@ -102,14 +126,17 @@ h1, p {
 	text-align: center;
 	flex-wrap: nowrap;
 	flex-basis: fit-content;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
+	/* align-items: center; */
+	/* align-content: center; */
+	justify-content: end;
+	
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .three-languages p {
     /* width: 200%; */
-    margin: 1em 2em;
+    margin: 0px 2em;
 	text-align: center;
 }
 
@@ -123,19 +150,58 @@ h1, p {
 .flag-img {
     //width: 100%;
     aspect-ratio: 4 / 3;
-	    border: 1px solid #7a7a7a;
-    border-radius: 2px;
+	//border: 1px solid #7a7a7a;
+    //border-radius: 2px;
     overflow: hidden;
 	height: 1em;
+    margin-right: 0.5em;
+    box-shadow: 
+       calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.3em #000,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #000,
+      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #000,
+       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #000,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #000,
+      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #000,
+       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #000;
 }
 
 img, svg {
     vertical-align: middle;
 }
 
+/* tweak to help/hint layout */
+.nowrap {
+	white-space: nowrap;
+}
+
+
+@media (max-width: 1200px) {
+
+#wb_header {
+  border: 1px solid red;
+	position: absolute;
+	top:  0;
+	left:  0;
+}
+
+.three-languages {
+    flex-direction: column;
+	/* align-items: center; */
+	/* align-content: center; */
+	justify-content: end;
+}
+
+
+
+
+}
+
 </style>
 </head>
 <body>
+	<div id="diag"><div> </div><div> </div><div> </div></div>
    <div id="wb_header">
       <div id="header">
          <div class="col-1">
@@ -145,18 +211,18 @@ img, svg {
          </div>
          <div class="col-2">
             <div role="navigation" id="wb_ResponsiveMenu1">
-                  <p role="menuitem"><a href="./"><i class="fa fa-home fa-2x"> </i><br>Home / Heim</a></p>
+                  <p role="menuitem"><a href="./"><i class="fa fa-home fa-2x"> </i><br>Home</a></p>
             </div>
          </div>
       </div>
    </div>
 	<a href="./" title="Jump to our home page / Ga door naar onze home pagina / weiter zu unserer Homepage"  id="wb_404_homelink" >
    <div id="wb_404">
-               <h1>404 ::<br> <span lang="en">Page Not Found</span> <br> <span lang="nl">Pagina Niet Gevonden</span> <br> <span lang="de">Konnte die angeforderte URL nicht finden</span></h1>
+               <h1>404 ::<br> <span lang="en">Page Not Found</span> <br> <span lang="nl">Pagina Niet Gevonden</span> <br> <span lang="de">Konnte die angeforderte URL <span class="nowrap">nicht finden</span></span></h1>
                
 			   <div class="three-languages" >
                <p lang="en">He's dead, Jim! He doesn't even <em>look</em> alive anymore.</p>
-               <p lang="nl"><img class="flag-img" src="flags/4x3/nl.svg" alt="Flag of The Netherlands"> Hij is totaal <em>kaputt</em>, Jim! Dat laatste <def>electroshockje</def> was toch <em>net</em> eentje teveel, geloof ik.</p>
+               <p lang="nl"><img class="flag-img" src="flags/4x3/nl.svg" alt="Flag of The Netherlands"> Hij is <em>kaputt</em>, Jim! Dat laatste <def>electroshockje</def> was toch <em>net</em> eentje teveel, geloof ik.</p>
                <p lang="de"><img class="flag-img" src="flags/4x3/de.svg" alt="Flag of Germany"> Er ist <em>müde</em>, Jim! <def>Fritz Lang</def> hat es ohnehin zu sehr gepackt. Schade!</p>
 			</div>
    </div>
@@ -167,8 +233,8 @@ img, svg {
          <div class="row">
             <div class="col-1">
                
-                  <p>Copyright &copy; 2022 Picardi B.V. &mdash; Alle rechten voorbehouden &mdash; 
-				  Photo by <a href="https://unsplash.com/@hannahdickens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hannah Dickens</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
+                  <p><span class="nowrap">Copyright &copy; 2022 Picardi B.V.</span> <span class="nowrap">&mdash; Alle rechten voorbehouden &mdash;</span> 
+				  <span class="nowrap">Photo by <a href="https://unsplash.com/@hannahdickens?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Hannah Dickens</a></span> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></p>
   
                
             </div>
