@@ -7240,15 +7240,16 @@ body
 	    width: 56%;
 	}
 	img#collage_hero_img_4 {
-	    top: 44em;
+	    top: 48em;
 	    left: initial !important;  /* !important is quick hack to override the DE language page CSS custom tweak (for all-rez) */
 	    right: 0;
 	    width: 40%;
 	}
 	img#collage_hero_img_5 {
-	    bottom: 19em;
+	    bottom: initial;
 	    right: 1em;
 	    height: 20%;
+	    top: 77em;
 	}
 
 
@@ -7280,8 +7281,8 @@ body
 
 	      /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
 	    
-	    shape-outside: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
-	    clip-path: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
+	    shape-outside: polygon(59% 2em, 100% 2em, 100% 94%, 89% 94%, 55% 91%, 58% 90%, 58% 85%, 69% 83%, 69% 69%, 99.9% 69%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 42%, 99.9% 39%, 12% 41%, 12% 39%, 53% 34%, 54% 22%, 99.9% 22%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
+	    clip-path: polygon(59% 2em, 100% 2em, 100% 94%, 89% 94%, 55% 91%, 58% 90%, 58% 85%, 69% 83%, 69% 69%, 99.9% 69%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 42%, 99.9% 39%, 12% 41%, 12% 39%, 53% 34%, 54% 22%, 99.9% 22%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
 	    background-color: darkred;
 
 	    height: 108em;
@@ -7366,9 +7367,10 @@ body
 	    width: 40%;
 	}
 	img#collage_hero_img_5 {
-	    bottom: 19em;
+	    bottom: initial;
 	    right: 1em;
 	    height: 20%;
+	    top: 75em;
 	}
 
 
@@ -7508,6 +7510,40 @@ body
 		font-size: calc(100vw / 28);
 	}
 
+	#collage_background {
+	    /* position: relative; */
+	    
+	    /* display: none; */
+		overflow: hidden;
+	}
+	#collage_background img {
+	    /* position: relative; */
+		/* width:  20%; */
+		/* height: 20%; */
+	}	
+	img#collage_hero_img_1 {
+	    width: 82%;
+	}
+	img#collage_hero_img_2 {
+	    right: -16%;
+	}
+	img#collage_hero_img_3 {
+	    top: 36em;
+	}
+	img#collage_hero_img_4 {
+	    right: 2%;
+	    top: 61em;
+	}
+	img#collage_hero_img_5 {
+	    right: -4em;
+	    top: 88em;
+	}
+
+	#layout-shape-for-collage-no-1 {
+	    shape-outside: polygon(70% 2em, 100% 2em, 100% 100%, 89% 99%, 53% 97%, 53% 92%, 64% 91%, 64% 89%, 82% 88%, 81% 75%, 99.9% 75%, 99.9% 59%, 41% 58%, 41% 56%, 55% 56%, 55% 53%, 64% 53%, 64% 52%, 99.9% 52%, 99.9% 38%, 12% 40%, 12% 38%, 53% 36%, 54% 29%, 99.9% 29%, 99.9% 16%, 68% 16%, 68% 13%, 63% 12%, 58% 8%);
+	    clip-path: polygon(70% 2em, 100% 2em, 100% 100%, 89% 99%, 53% 97%, 53% 92%, 64% 91%, 64% 89%, 82% 88%, 81% 75%, 99.9% 75%, 99.9% 59%, 41% 58%, 41% 56%, 55% 56%, 55% 53%, 64% 53%, 64% 52%, 99.9% 52%, 99.9% 38%, 12% 40%, 12% 38%, 53% 36%, 54% 29%, 99.9% 29%, 99.9% 16%, 68% 16%, 68% 13%, 63% 12%, 58% 8%);
+	    height: 113em;
+	}
 }
 
 @media (max-width: 800px) {
@@ -7520,6 +7556,30 @@ body
 		font-size: calc(100vw / 24);
 	}
 
+	img#collage_hero_img_1 {
+	    width: 82%;
+	}
+	img#collage_hero_img_2 {
+	    right: -25%;
+		    top: 4%;
+	}
+	img#collage_hero_img_3 {
+	    top: 36em;
+	}
+	img#collage_hero_img_4 {
+	    right: 2%;
+	    top: 61em;
+	}
+	img#collage_hero_img_5 {
+	    right: -4em;
+	    top: 88em;
+	}
+
+	#layout-shape-for-collage-no-1 {
+	    shape-outside: polygon(70% 3em, 100% 3em, 100% 99%, 99% 99%, 44% 97%, 44% 92%, 57% 91%, 57% 89%, 79% 87%, 78% 74%, 99.9% 74%, 99.9% 57%, 41% 57%, 41% 55%, 55% 54%, 55% 52%, 64% 52%, 64% 51%, 99.9% 51%, 99.9% 36%, 12% 38%, 12% 36%, 53% 34%, 54% 29%, 99.9% 29%, 99.9% 18%, 68% 18%, 67% 16%, 57% 15%, 52% 10%);
+	    clip-path: polygon(70% 3em, 100% 3em, 100% 99%, 99% 99%, 44% 97%, 44% 92%, 57% 91%, 57% 89%, 79% 87%, 78% 74%, 99.9% 74%, 99.9% 57%, 41% 57%, 41% 55%, 55% 54%, 55% 52%, 64% 52%, 64% 51%, 99.9% 51%, 99.9% 36%, 12% 38%, 12% 36%, 53% 34%, 54% 29%, 99.9% 29%, 99.9% 18%, 68% 18%, 67% 16%, 57% 15%, 52% 10%);
+	    height: 115em;
+	}
 }
 
 
