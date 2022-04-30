@@ -5901,6 +5901,20 @@ name {
 
 
 
+/* tweak to help/hint layout */
+.nowrap {
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7556,6 +7570,10 @@ body
 		font-size: calc(100vw / 24);
 	}
 
+	h1 {
+	  font-size: 150%;
+	}
+
 	img#collage_hero_img_1 {
 	    width: 82%;
 	}
@@ -7593,6 +7611,10 @@ body
 		font-size: calc(100vw / 22);
 	}
 
+	h1 {
+	  font-size: 135%;
+	}
+
 }
 
 
@@ -7627,3 +7649,15 @@ img#collage_hero_img_4 {
 #collage_blurb_no_3 {
     top: 32%;
 }	
+
+
+
+
+
+@media (max-width: 800px) {
+
+	/* tweak for Kontaktinformationen @ 800px */
+	#wb_contact h2 {
+		font-size: 130%;
+	}
+}

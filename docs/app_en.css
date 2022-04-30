@@ -5901,6 +5901,20 @@ name {
 
 
 
+/* tweak to help/hint layout */
+.nowrap {
+	white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7556,6 +7570,10 @@ body
 		font-size: calc(100vw / 24);
 	}
 
+	h1 {
+	  font-size: 150%;
+	}
+
 	img#collage_hero_img_1 {
 	    width: 82%;
 	}
@@ -7591,6 +7609,10 @@ body
 
 	body {
 		font-size: calc(100vw / 22);
+	}
+
+	h1 {
+	  font-size: 135%;
 	}
 
 }
