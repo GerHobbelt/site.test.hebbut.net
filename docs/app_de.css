@@ -5620,6 +5620,13 @@ name {
     //z-index: 1;
 }
 
+.menu-active #producten, .menu-active #about, .menu-active #contact {
+    //margin-top: -12em;
+}
+
+.menu-active #home {
+    //margin-top: -12em;
+}
 
 
 .mobile-phone-icon {

@@ -75,7 +75,6 @@ catch (ex) {
 	console.error("b0rk", {ex: ex});
 }
 
-
 </script>
 	
 </head>
@@ -412,4 +411,43 @@ catch (ex) {
          </div>
       </div>
    </div>
-</body></html>
+
+<script type="text/javascript">
+
+try {
+	let el = document.querySelector("#ResponsiveMenu1-submenu");
+	console.log({el})
+		
+	el.addEventListener('change', signalMenuStatus);
+	
+	addEventListener('hashchange', resetMenuStatusOnJump);
+
+	function signalMenuStatus(e) {
+	  console.log({e, target: e.target, checked: e.target.checked })
+	  
+		const body = document.querySelector('body');
+		
+		if (e.target.checked) {
+			//body.classList.remove("menu-folded");
+			body.classList.add("menu-active");	  
+		}
+		else {
+			//body.classList.add("menu-folded");
+			body.classList.remove("menu-active");	  
+		}
+	}	
+
+	function resetMenuStatusOnJump(e) {
+	  console.log({e, target: e.target, checked: e.target.checked })
+	  
+		el.checked = false;
+	}	
+}
+catch (ex) {
+	console.error("b0rk", {ex: ex});
+}
+
+
+</script>
+</body>
+	</html>
