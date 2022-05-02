@@ -3996,6 +3996,96 @@ input:focus, textarea:focus, select:focus
    
    
 }
+#openingstijden .cell2
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell3
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell4
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell5
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell6
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell7
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell8
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell9
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
+#openingstijden .cell10
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: top;
+   color: #FFFFFF;
+   
+   
+}
 #wb_Text2 
 {
    background-color: transparent;
@@ -5732,11 +5822,11 @@ name {
 
 
 
-@media all and (max-width:930px) /* was: 810px */
+@media all and (max-width:1200px) /* was: 810px */
 {
 #wb_ResponsiveMenu1
 {
-   margin: 0;
+   //margin: 0;
    text-align: left;
 }
 #wb_ResponsiveMenu1 ul li a, #wb_ResponsiveMenu1 .toggle
@@ -7524,6 +7614,10 @@ body
 		font-size: calc(100vw / 28);
 	}
 
+	#collage_infochunks > div:last-child {
+	    margin-bottom: 15em;
+	}
+
 	#collage_background {
 	    /* position: relative; */
 	    
@@ -7539,24 +7633,35 @@ body
 	    width: 82%;
 	}
 	img#collage_hero_img_2 {
-	    right: -16%;
+	    right: -12%;
 	}
 	img#collage_hero_img_3 {
-	    top: 36em;
+	    top: 32em;
 	}
 	img#collage_hero_img_4 {
 	    right: 2%;
-	    top: 61em;
+	    top: 55.5em;
 	}
 	img#collage_hero_img_5 {
-	    right: -4em;
-	    top: 88em;
+	    right: -2.8em;
+	    top: 80em;
 	}
 
 	#layout-shape-for-collage-no-1 {
 	    shape-outside: polygon(70% 2em, 100% 2em, 100% 100%, 89% 99%, 53% 97%, 53% 92%, 64% 91%, 64% 89%, 82% 88%, 81% 75%, 99.9% 75%, 99.9% 59%, 41% 58%, 41% 56%, 55% 56%, 55% 53%, 64% 53%, 64% 52%, 99.9% 52%, 99.9% 38%, 12% 40%, 12% 38%, 53% 36%, 54% 29%, 99.9% 29%, 99.9% 16%, 68% 16%, 68% 13%, 63% 12%, 58% 8%);
 	    clip-path: polygon(70% 2em, 100% 2em, 100% 100%, 89% 99%, 53% 97%, 53% 92%, 64% 91%, 64% 89%, 82% 88%, 81% 75%, 99.9% 75%, 99.9% 59%, 41% 58%, 41% 56%, 55% 56%, 55% 53%, 64% 53%, 64% 52%, 99.9% 52%, 99.9% 38%, 12% 40%, 12% 38%, 53% 36%, 54% 29%, 99.9% 29%, 99.9% 16%, 68% 16%, 68% 13%, 63% 12%, 58% 8%);
-	    height: 113em;
+	    height: 103em;
+	}
+
+	#location p, #location ul, #location img {
+	    text-align: center;
+	}
+
+	/* Center SIGNAL image too */
+	#location img {
+	        margin-left: auto;
+	    margin-right: auto;
+	    display: block;
 	}
 }
 
@@ -7615,6 +7720,39 @@ body
 	  font-size: 135%;
 	}
 
+	#collage_infochunks > div:last-child {
+	    margin-bottom: 13em;
+	}
+
+	img#collage_hero_img_1 {
+	    width: 95%;
+	}
+	img#collage_hero_img_2 {
+	    right: -14%;
+	    top: 11.5%;
+	    height: 9%;
+	}
+	img#collage_hero_img_3 {
+	    top: 37em;
+	    width: 61%;
+	    right: 0%;
+	}
+	img#collage_hero_img_4 {
+	    right: 2%;
+	    top: 65.5em;
+	    width: 50%;
+	}
+	img#collage_hero_img_5 {
+	    right: -4em;
+	    top: 96em;
+	    height: 17%;
+	}
+
+	#layout-shape-for-collage-no-1 {
+	    shape-outside: polygon(70% 13em, 100% 13em, 100% 98%, 99% 98%, 47% 96%, 47% 93%, 57% 92%, 57% 90%, 79% 89%, 78% 77%, 99.9% 77%, 99.9% 58.5%, 27% 58.5%, 27% 57%, 51% 56%, 41% 55%, 40% 54%, 47% 53.5%, 50% 52.5%, 99.9% 52.5%, 99.9% 35%, 9% 37%, 7% 36%, 52% 34%, 54% 29%, 99.9% 29%, 99.9% 22.5%, 63% 22.5%, 63% 20.5%, 54% 20%, 50% 17%, 59% 13%);
+	    clip-path: polygon(70% 13em, 100% 13em, 100% 98%, 99% 98%, 47% 96%, 47% 93%, 57% 92%, 57% 90%, 79% 89%, 78% 77%, 99.9% 77%, 99.9% 58.5%, 27% 58.5%, 27% 57%, 51% 56%, 41% 55%, 40% 54%, 47% 53.5%, 50% 52.5%, 99.9% 52.5%, 99.9% 35%, 9% 37%, 7% 36%, 52% 34%, 54% 29%, 99.9% 29%, 99.9% 22.5%, 63% 22.5%, 63% 20.5%, 54% 20%, 50% 17%, 59% 13%);
+	    height: 120em;
+	}
 }
 
 
@@ -7653,11 +7791,26 @@ img#collage_hero_img_4 {
 
 
 
+@media (max-width: 930px) {
+
+	h1 {
+	  font-size: 175%;
+	}
+}
 
 @media (max-width: 800px) {
+
+	/* same as general setting, but must appear AFTER 930px lang-specific tweak above due to CSS priority rules */
+	h1 {
+	  font-size: 150%; 
+	}
 
 	/* tweak for Kontaktinformationen @ 800px */
 	#wb_contact h2 {
 		font-size: 130%;
+	}
+
+	img#collage_hero_img_5 {
+		top: 86em;
 	}
 }
