@@ -5700,6 +5700,39 @@ name {
 
 
 
+/* https://css-tricks.com/adding-stroke-to-web-text/ */
+#wb_ResponsiveMenu1 {
+--line-thickness: 0.1em;
+
+   //-webkit-text-stroke: calc(var(--line-thickness)) black;
+   //color: white;
+   /*
+   text-shadow:
+       calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.3em #000,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #000,
+      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #000,
+       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #000,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #000,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #000,
+      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #000,
+       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #000;
+*/
+	text-shadow: 
+	calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.4em #0000a3,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #00000040,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #00000040,
+      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #00000040,
+       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #00000040,
+     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #00000040,  
+      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #00000040,
+      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #00000040,
+       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #00000040;
+
+	//padding: 0.5em 0.5em;
+    //line-height: 1.5em;
+}
+
 
 @media all and (max-width:1200px) /* was: 810px */
 {
@@ -5860,40 +5893,6 @@ name {
    border-top-color: #F8E0BE;
 }
 
-/* https://css-tricks.com/adding-stroke-to-web-text/ */
-#wb_ResponsiveMenu1 {
---line-thickness: 0.1em;
-
-   //-webkit-text-stroke: calc(var(--line-thickness)) black;
-   color: white;
-   /*
-   text-shadow:
-       calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.3em #000,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #000,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #000,
-      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #000,
-       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #000,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #000,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #000,
-      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #000,
-       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #000;
-*/
-	text-shadow: 
-	calc(var(--line-thickness) * 2) calc(var(--line-thickness) * 2) 0.4em #0000a3,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * -1) 1px #00000040,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * -1) 1px #00000040,
-      calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 1) 1px #00000040,
-       calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 1) 1px #00000040,
-     calc(var(--line-thickness) * -1) calc(var(--line-thickness) * 0) 1px #00000040,  
-      calc(var(--line-thickness) * 1) calc(var(--line-thickness) * 0) 1px #00000040,
-      calc(var(--line-thickness) * 0) calc(var(--line-thickness) * -1) 1px #00000040,
-       calc(var(--line-thickness) * 0) calc(var(--line-thickness) * 1) 1px #00000040;
-
-	//padding: 0.5em 0.5em;
-    //line-height: 1.5em;
-}
-
-
 }
 
 
@@ -5986,6 +5985,20 @@ name {
 	}
 
 }
+
+
+/* make top menu bar move with the page to allow user to scroll through the content on their relatively small/tiny mobile screen */
+@media only screen and (orientation : landscape) and (max-width: 930px)
+{
+	#diag div:nth-child(3):before {
+	  content: "land:930";
+	}
+
+	#wb_header {
+		position: absolute;
+	}
+}
+
 
 @media (max-width: 1800px) {
 
