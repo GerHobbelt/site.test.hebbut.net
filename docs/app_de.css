@@ -2842,9 +2842,9 @@ h6, .h6
    text-decoration: none;
    background-color: transparent;
    border: 0px solid #00FF7F;
-   margin: 20px 0px 20px 0px;
+   margin: 1em 0px 1em 0px;
    width: auto !important;
-   max-width: 550px;
+   max-width: 27em;
 }
 .ContainerForHeroImages1
 {
@@ -2935,7 +2935,7 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   padding: 20px 0px 20px 0px;
+   padding: 1em 0px 1em 0px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -2944,8 +2944,8 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #header > .col-1, #header > .col-2
@@ -3027,7 +3027,7 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   padding: 145px 0px 45px 0px;
+   padding: 7em 0px 2em 0px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -3036,8 +3036,8 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #home > .col-1
@@ -3096,22 +3096,22 @@ input:focus, textarea:focus, select:focus
 #features
 {
    box-sizing: border-box;
-   padding: 30px 15px 20px 15px;
+   padding: 1.5em 0.75em 1em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #features > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #features > .row > .col-1, #features > .row > .col-2, #features > .row > .col-3, #features > .row > .col-4
@@ -3179,7 +3179,7 @@ input:focus, textarea:focus, select:focus
    
    
    vertical-align: middle;
-   width: 72px;
+   width: 6.5em;
 }
 #IconPowerSupply:hover i
 {
@@ -3194,7 +3194,7 @@ input:focus, textarea:focus, select:focus
    
    
    vertical-align: middle;
-   width: 77px;
+   width: 6.5em;
 }
 #IconRepairs:hover i
 {
@@ -3209,7 +3209,7 @@ input:focus, textarea:focus, select:focus
    
    
    vertical-align: middle;
-   width: 72px;
+   width: 6.5em;
 }
 #IconSpecials:hover i
 {
@@ -3224,7 +3224,7 @@ input:focus, textarea:focus, select:focus
    
    
    vertical-align: middle;
-   width: 72px;
+   width: 6.5em;
 }
 #IconTransformer:hover i
 {
@@ -3239,7 +3239,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    vertical-align: top;
    margin: 0;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
    text-align: center;
 }
 
@@ -3252,7 +3252,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    vertical-align: top;
    margin: 0;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
    text-align: center;
 }
 
@@ -3265,7 +3265,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    vertical-align: top;
    margin: 0;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
    text-align: center;
 }
 
@@ -3278,7 +3278,7 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    vertical-align: top;
    margin: 0;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
    text-align: center;
 }
 
@@ -3297,22 +3297,22 @@ input:focus, textarea:focus, select:focus
 #_producten
 {
    box-sizing: border-box;
-   padding: 130px 15px 130px 15px;
+   padding: 6.5em 0.75em 6.5em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #_producten > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #_producten > .row > .col-1
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #_producten > .row > .col-1
@@ -3404,7 +3404,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   height: 33vh;
+   //height: 33vh;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -3412,23 +3412,23 @@ input:focus, textarea:focus, select:focus
 #_about
 {
    box-sizing: border-box;
-   height: 33vh;
-   padding: 130px 15px 130px 15px;
+   //height: 33vh;
+   padding: 6.5em 0.75em 6.5em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #_about > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #_about > .row > .col-1
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #_about > .row > .col-1
@@ -3514,22 +3514,22 @@ input:focus, textarea:focus, select:focus
 #about_texts
 {
    box-sizing: border-box;
-   padding: 80px 15px 80px 15px;
+   padding: 4em 0.75em 4em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #about_texts > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #about_texts > .row > .col-1, #about_texts > .row > .col-2
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #about_texts > .row > .col-1, #about_texts > .row > .col-2
@@ -3549,7 +3549,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    width: 100%;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
 }
 #about_texts > .row > .col-2
 {
@@ -3564,7 +3564,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    width: 100%;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
 }
 #about_texts:before,
 #about_texts:after,
@@ -3590,7 +3590,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   height: 33vh;
+   //height: 33vh;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -3598,23 +3598,23 @@ input:focus, textarea:focus, select:focus
 #_contact
 {
    box-sizing: border-box;
-   height: 33vh;
-   padding: 130px 15px 130px 15px;
+   //height: 33vh;
+   padding: 6.5em 0.75em 6.5em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #_contact > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #_contact > .row > .col-1
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #_contact > .row > .col-1
@@ -3707,7 +3707,7 @@ input:focus, textarea:focus, select:focus
    flex-direction: row;
    -webkit-flex-wrap: wrap;
    flex-wrap: wrap;
-   padding: 80px 0px 80px 0px;
+   padding: 4em 0px 4em 0px;
    margin-right: auto;
    margin-left: auto;
 }
@@ -3716,8 +3716,8 @@ input:focus, textarea:focus, select:focus
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #location > .col-1, #location > .col-2, #location > .col-3
@@ -3751,7 +3751,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    width: 100%;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
 }
 #location > .col-2
 {
@@ -3779,7 +3779,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    width: 100%;
-   padding: 10px 0px 10px 0px;
+   padding: 0.5em 0px 0.5em 0px;
 }
 #location > .col-3
 {
@@ -3807,7 +3807,7 @@ input:focus, textarea:focus, select:focus
 {
    box-sizing: border-box;
    width: 100%;
-   padding: 0px 25px 0px 25px;
+   padding: 0px 1em 0px 1em;
 }
 
 /* NUKED */
@@ -3818,7 +3818,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0px 0px 5px 0px;
+   padding: 0px 0px 0.25em 0px;
    margin: 0;
    text-align: left;
 }
@@ -3859,22 +3859,22 @@ input:focus, textarea:focus, select:focus
 #footer
 {
    box-sizing: border-box;
-   padding: 50px 15px 50px 15px;
+   padding: 2.5em 0.75em 2.5em 0.75em;
    margin-right: auto;
    margin-left: auto;
 }
 #footer > .row
 {
-   margin-right: -15px;
-   margin-left: -15px;
+   margin-right: -0.75em;
+   margin-left: -0.75em;
 }
 #footer > .row > .col-1
 {
    box-sizing: border-box;
    
    min-height: 1px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 0.75em;
+   padding-left: 0.75em;
    position: relative;
 }
 #footer > .row > .col-1
@@ -3949,7 +3949,7 @@ input:focus, textarea:focus, select:focus
    display: block;
    float: left;
    width: 100%;
-   height: 378px;
+   height: 18em;
    vertical-align: top;
 }
 #openingstijden
@@ -4092,7 +4092,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: center;
 }
@@ -4122,7 +4122,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: center;
 }
@@ -4212,7 +4212,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: left;
 }
@@ -4272,7 +4272,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 20px 0px;
+   padding: 0.75em 0px 1em 0px;
    margin: 0;
    text-align: left;
 }
@@ -4302,7 +4302,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0px 0px 20px 0px;
+   padding: 0px 0px 1em 0px;
    margin: 0;
    text-align: left;
 }
@@ -4334,7 +4334,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: left;
 }
@@ -4366,7 +4366,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: center;
 }
@@ -4396,7 +4396,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: center;
 }
@@ -4465,7 +4465,7 @@ input:focus, textarea:focus, select:focus
    
    background-color: rgba(0,0,0,0.00);
    display: inline-block;
-   height: 47px;
+   height: 2em;
 }
 #wb_ResponsiveMenu1 ul
 {
@@ -4490,7 +4490,7 @@ input:focus, textarea:focus, select:focus
 #wb_ResponsiveMenu1 ul li i
 {
    
-   width: 22px;
+   width: 1em;
 }
 #wb_ResponsiveMenu1 ul li a
 {
@@ -4501,13 +4501,13 @@ input:focus, textarea:focus, select:focus
    font-weight: normal;
    
    font-style: normal;
-   padding: 5px 15px 5px 5px;
+   padding: 0.25em 0.75em 0.25em 0.25em;
    text-align: center;
    text-decoration: none;
 }
 #wb_ResponsiveMenu1 > ul > li > a 
 {
-   height: 37px;
+   height: 1.5em;
 }
 .ResponsiveMenu1 a 
 {
@@ -4523,7 +4523,7 @@ input:focus, textarea:focus, select:focus
 {
    display: none;
    position: absolute;
-   top: 47px;
+   top: 2em;
 }
 #wb_ResponsiveMenu1 ul li:hover > ul
 {
@@ -4533,7 +4533,7 @@ input:focus, textarea:focus, select:focus
 {
    float: none;
    position: relative;
-   width: 125px;
+   width: 6em;
 }
 #wb_ResponsiveMenu1 ul ul li a
 {
@@ -4549,23 +4549,23 @@ input:focus, textarea:focus, select:focus
 }
 #wb_ResponsiveMenu1 ul ul li i 
 {
-   margin-right: 7px;
+   margin-right: 0.33em;
    vertical-align: middle;
 }
 #wb_ResponsiveMenu1 ul ul li a 
 {
    color: #FFFFFF;
-   padding-top: 5px;
-   padding-right: 5px;
-   padding-bottom: 5px;
+   padding-top: 0.25em;
+   padding-right: 0.25em;
+   padding-bottom: 0.25em;
    text-align: left;
    vertical-align: middle;
 }
 #wb_ResponsiveMenu1 ul ul ul li 
 {
-   left: 125px;
+   left: 6em;
    position: relative;
-   top: -47px;
+   top: -2em;
 }
 #wb_ResponsiveMenu1 .arrow-down 
 {
@@ -4616,8 +4616,8 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0px 0px 15px 0px;
-   margin: 70px 0px 0px 0px;
+   padding: 0px 0px 0.75em 0px;
+   margin: 3.5em 0px 0px 0px;
    text-align: left;
 }
 #wb_Text4
@@ -4636,7 +4636,7 @@ input:focus, textarea:focus, select:focus
 #wb_Text4
 {
    display: block;
-   margin: 70px 0px 0px 0px;
+   margin: 3.5em 0px 0px 0px;
    box-sizing: border-box;
    width: 100%;
 }
@@ -4646,7 +4646,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0px 0px 15px 0px;
+   padding: 0px 0px 0.75em 0px;
    margin: 0;
    text-align: left;
 }
@@ -4758,7 +4758,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 0px 0px 5px 0px;
+   padding: 0px 0px 0.25em 0px;
    margin: 0;
    text-align: left;
 }
@@ -4788,7 +4788,7 @@ input:focus, textarea:focus, select:focus
    background-image: none;
    border: 0px solid #000000;
    border-radius: 0px;
-   padding: 15px 0px 0px 0px;
+   padding: 0.75em 0px 0px 0px;
    margin: 0;
    text-align: left;
 }
@@ -4867,7 +4867,7 @@ input:focus, textarea:focus, select:focus
 {
    display: table;
    width: 100%;
-   height: 127px;
+   height: 6em;
    
 }
 #wb_ResponsiveMenu1
@@ -4907,7 +4907,7 @@ Wrapper rondom een aantal plaatjes, die allemaal op dezelfde breedte flexibel er
 .ContainerForHeroImages1 > div
 {
 	width: auto;
-	max-width: 400px;
+	max-width: 20em;
 }
 
 
@@ -4963,7 +4963,7 @@ h1 {
     margin-left: auto !important;
     margin-right: auto !important;
     margin-top: 1.5em !important;
-    margin-bottom: 0.35em;
+    //margin-bottom: 0.33em;
 }
 
 h2 {
@@ -4974,7 +4974,7 @@ h2 {
     margin-right: auto !important;
 
     display: block;
-    margin-bottom: 0.35em;
+    //margin-bottom: 0.33em;
 }
 
 h3 {
@@ -5047,7 +5047,7 @@ td {
 
 td:first-child {
     /* text-align: right !important; */
-    padding-right: 3em !important;
+    padding-right: 2em !important;
 }
 
 #location table {
@@ -5088,7 +5088,7 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
 }
 
 #features {
-    padding: 3em 15px 3em 15px;
+    padding: 3em 0.75em 3em 0.75em;
 }
 
 
@@ -5197,14 +5197,14 @@ img#collage_hero_img_5 {
 }
 
 #collage_infochunks ul {
-	margin: 0 0 0.35em 0.35em;
+	margin: 0 0 0.33em 0.33em;
 	padding: 0;
 }
 #collage_infochunks ul li {
 	padding-left: 0.3em;
 }
 #collage_infochunks p {
-	margin: 0 0 0.35em 0;
+	margin: 0 0 0.33em 0;
 	padding: 0;
 }
 #collage_infochunks h3 {
@@ -5399,7 +5399,7 @@ img#collage_hero_img_5 {
     text-align: right;
 }
 #wb_ResponsiveMenu1 .arrow-down {
-	margin-left: 0.35em;
+	margin-left: 0.33em;
 }
 #wb_ResponsiveMenu1 {
     font-size: 90%;
@@ -5413,7 +5413,7 @@ img#collage_hero_img_5 {
 
 #wb_home {
     //background-position: center bottom;
-    background-size: 100% 100%;
+    //background-size: 100% 100%;
     background-position-x: center;
     background-position-y: 1em;
 }
@@ -5512,7 +5512,7 @@ img#collage_hero_img_5 {
 }
 
 #location > .col-2 > .col-2-padding {
-    padding: 10px 0px 0px 0px;
+    padding: 0.5em 0px 0px 0px;
 }
 #InlineFrame1 {
     height: 20em;
@@ -5535,13 +5535,13 @@ p.emphasized-heading {
 
 /* image + iframe tweaking: */
 #vroomshoop {
-    border: solid #89541e 0.35em;
+    border: solid #89541e 0.33em;
 	/* margin-top: 1em; */
 	margin-top: 2.75em;
 }
 
 #location iframe {
-    border: solid #89541e 0.35em;
+    border: solid #89541e 0.33em;
 }
 
 
@@ -5554,7 +5554,7 @@ p.emphasized-heading {
    display: table;
    text-align: center;
    width: 100%;
-   height: 33vh;
+   //height: 33vh;
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -5570,12 +5570,12 @@ p.emphasized-heading {
 {
    box-sizing: border-box;
    //height: 33vh;
-   //padding: 130px 15px 130px 15px;
+   //padding: 6.5em 0.75em 6.5em 0.75em;
    margin-right: auto;
    margin-left: auto;
 
     height: 10em;
-    padding: 5em 15px 5em 15px;
+    padding: 5em 0.75em 5em 0.75em;
     margin-top: -5em;
     margin-bottom: 0;
     position: absolute;
@@ -5841,7 +5841,7 @@ name {
    
    font-weight: normal;
    font-style: normal;
-   padding: 5px 5px 5px 5px;
+   padding: 0.25em 0.25em 0.25em 0.25em;
 }
 #wb_ResponsiveMenu1 .toggle + a
 {
@@ -5850,7 +5850,6 @@ name {
 .ResponsiveMenu1 
 {
    display: none;
-   
 }
 #ResponsiveMenu1 
 {
@@ -5859,7 +5858,8 @@ name {
 }
 #wb_ResponsiveMenu1 > ul > li > a 
 {
-   height: auto !important;   margin: 0;
+   height: auto !important;   
+   margin: 0;
 }
 #wb_ResponsiveMenu1 .toggle 
 {
@@ -5867,7 +5867,7 @@ name {
    
    background-color: rgba(0,0,0,0.00);
    color: #FFFFFF;
-   padding: 0px 5px 0px 5px;
+   padding: 0px 0.25em 0px 0.25em;
    
    text-decoration: none;
    border: none;
@@ -5885,7 +5885,7 @@ name {
 }
 #ResponsiveMenu1-title
 {
-   height: 47px !important;
+   height: 2em !important;
    
    text-align: center;
 }
@@ -5898,7 +5898,7 @@ name {
 #wb_ResponsiveMenu1 ul ul .toggle,
 #wb_ResponsiveMenu1 ul ul a 
 {
-   padding: 0 10px;
+   padding: 0 0.5em;
 }
 #wb_ResponsiveMenu1 a:hover,
 #wb_ResponsiveMenu1 ul ul ul a 
@@ -5914,7 +5914,7 @@ name {
 }
 #wb_ResponsiveMenu1 ul ul ul a 
 {
-   padding: 5px 5px 5px 15px;
+   padding: 0.25em 0.25em 0.25em 0.75em;
 }
 #wb_ResponsiveMenu1 ul li a 
 {
@@ -5926,7 +5926,7 @@ name {
 }
 #wb_ResponsiveMenu1 ul li i 
 {
-   margin-right: 7px;
+   margin-right: 0.33em;
 }
 #wb_ResponsiveMenu1 ul ul 
 {
@@ -5951,17 +5951,17 @@ name {
 {
    display: block;
    position: absolute;
-   right: 15px;
-   top: 11px;
+   right: 0.75em;
+   top: 0.5em;
 }
 #ResponsiveMenu1-icon span 
 {
    display: block;
-   margin-top: 4px;
+   margin-top: 0.25em;
    height: 2px;
    background-color: #FFFFFF;
    color: #FFFFFF;
-   width: 24px;
+   width: 1em;
 }
 #wb_ResponsiveMenu1 ul li ul li .toggle:hover
 {
@@ -6012,1106 +6012,6 @@ name {
 
 
 
-
-
-
-/*
-
-@media only screen and (min-width: 930px) and (max-width: 1023px)
-{
-body
-{
-   background-color: #FFFFFF;
-   background-image: none;
-}
-#wb_header
-{
-   visibility: visible;
-   display: table;
-}
-#wb_header
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#header
-{
-   padding: 20px 0px 20px 0px;
-}
-#wb_home
-{
-   visibility: visible;
-   display: table;
-}
-#wb_home
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#home
-{
-   padding: 145px 0px 45px 0px;
-}
-#wb_features
-{
-   visibility: visible;
-   display: table;
-}
-#wb_features
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#features
-{
-   padding: 30px 15px 20px 15px;
-}
-#features .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-#IconPowerSupply i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconRepairs i
-{
-   
-   
-   width: 77px;
-}
-
-
-#IconSpecials i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconTransformer i
-{
-   
-   
-   width: 72px;
-}
-#wb_Heading1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_producten
-{
-   visibility: visible;
-   display: table;
-}
-#wb_producten
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_producten
-{
-   padding: 130px 15px 130px 15px;
-}
-#_producten .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-
-
-#wb_about
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_about
-{
-   padding: 130px 15px 130px 15px;
-}
-#_about .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_about_texts
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about_texts
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#about_texts
-{
-   padding: 80px 15px 80px 15px;
-}
-#about_texts .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_contact
-{
-   visibility: visible;
-   display: table;
-}
-#wb_contact
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_contact
-{
-   padding: 130px 15px 130px 15px;
-}
-#_contact .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_location
-{
-   visibility: visible;
-   display: table;
-}
-#wb_location
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#location
-{
-   padding: 80px 0px 80px 0px;
-}
-#wb_location-text
-{
-   visibility: visible;
-   display: block;
-}
-#wb_location-text
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_footer
-{
-   visibility: visible;
-   display: table;
-}
-#wb_footer
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#footer
-{
-   padding: 50px 15px 50px 15px;
-}
-#footer .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_Text16
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text16
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   
-}
-
-
-#InlineFrame1
-{
-   width: 100%;
-   height: 378px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#openingstijden
-{
-   visibility: visible;
-   display: table;
-}
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text7
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-#wb_Text10
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text10
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text11
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 20px 0px;
-   text-align: left;
-   
-}
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text12
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 20px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_email-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_email-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text14
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text15
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text17
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text17
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 20px 0px 0px 0px;
-   text-align: right;
-}
-
-
-
-
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   
-   font-weight: normal;
-   
-   margin: 70px 0px 0px 0px;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text6
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_PageSubTitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_PageSubTitleText
-{
-   margin: 0;
-   padding: 20px 0px 20px 0px;
-}
-#wb_phone-numbers
-{
-   visibility: visible;
-   display: block;
-}
-#wb_phone-numbers
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_KvK-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_KvK-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-}
-
-*/
-
-
-
-/* 
-
-@media only screen and (max-width: 929px)
-{
-body
-{
-   
-   background-image: none;
-}
-#wb_header
-{
-   visibility: visible;
-   display: table;
-}
-#wb_header
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#header
-{
-   padding: 20px 0px 20px 0px;
-}
-#wb_home
-{
-   visibility: visible;
-   display: table;
-}
-#wb_home
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#home
-{
-   padding: 145px 0px 45px 0px;
-}
-#wb_features
-{
-   visibility: visible;
-   display: table;
-}
-#wb_features
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#features
-{
-   padding: 30px 15px 20px 15px;
-}
-#features .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-#IconPowerSupply i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconRepairs i
-{
-   
-   
-   width: 77px;
-}
-
-
-#IconSpecials i
-{
-   
-   
-   width: 72px;
-}
-
-
-#IconTransformer i
-{
-   
-   
-   width: 72px;
-}
-#wb_Heading1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading2
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading3
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_Heading4
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 0;
-   padding: 10px 0px 10px 0px;
-}
-#wb_producten
-{
-   visibility: visible;
-   display: table;
-}
-#wb_producten
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_producten
-{
-   padding: 130px 15px 130px 15px;
-}
-#_producten .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-
-
-
-
-#wb_about
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_about
-{
-   padding: 130px 15px 130px 15px;
-}
-#_about .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_about_texts
-{
-   visibility: visible;
-   display: table;
-}
-#wb_about_texts
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#about_texts
-{
-   padding: 80px 15px 80px 15px;
-}
-#about_texts .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_contact
-{
-   visibility: visible;
-   display: table;
-}
-#wb_contact
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#_contact
-{
-   padding: 130px 15px 130px 15px;
-}
-#_contact .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_location
-{
-   visibility: visible;
-   display: table;
-}
-#wb_location
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#location
-{
-   padding: 80px 0px 80px 0px;
-}
-#wb_location-text
-{
-   visibility: visible;
-   display: block;
-}
-#wb_location-text
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_footer
-{
-   visibility: visible;
-   display: table;
-}
-#wb_footer
-{
-   margin-top: 0px;
-   margin-bottom: 0px;
-}
-#footer
-{
-   padding: 50px 15px 50px 15px;
-}
-#footer .row
-{
-   margin-right: -15px;
-   margin-left: -15px;
-}
-#wb_Text16
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text16
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: center;
-   
-}
-
-
-#InlineFrame1
-{
-   width: 100%;
-   height: 378px;
-   visibility: visible;
-   display: block;
-   margin: 0;
-}
-#openingstijden
-{
-   visibility: visible;
-   display: table;
-}
-#wb_Text2
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text2
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text3
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text3
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text7
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text7
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text5
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text5
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text9
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text9
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-#wb_Text10
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text10
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_Text11
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text11
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 20px 0px;
-   text-align: left;
-   
-}
-#wb_Text12
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text12
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 20px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_email-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_email-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-
-
-#wb_Text14
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text14
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text15
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text15
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: center;
-   
-}
-#wb_Text17
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text17
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0;
-   text-align: left;
-   
-}
-#wb_ResponsiveMenu1
-{
-   width: 100%;
-   visibility: visible;
-   display: block;
-   margin: 20px 0px 0px 0px;
-   text-align: right;
-}
-
-
-
-
-#wb_Text4
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text4
-{
-   
-   font-weight: normal;
-   
-   margin: 70px 0px 0px 0px;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_Text6
-{
-   visibility: visible;
-   display: block;
-}
-#wb_Text6
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 15px 0px;
-   text-align: left;
-   
-}
-#wb_PageSubTitleText
-{
-   visibility: visible;
-   display: block;
-}
-#wb_PageSubTitleText
-{
-   margin: 0;
-   padding: 20px 0px 20px 0px;
-}
-#wb_phone-numbers
-{
-   visibility: visible;
-   display: block;
-}
-#wb_phone-numbers
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 0px 0px 5px 0px;
-   text-align: left;
-   
-}
-#wb_KvK-info
-{
-   visibility: visible;
-   display: block;
-}
-#wb_KvK-info
-{
-   
-   font-weight: normal;
-   
-   margin: 0;
-   padding: 15px 0px 0px 0px;
-   text-align: left;
-   
-}
-}
-
-*/
 
 
 
@@ -7394,15 +6294,18 @@ body
 	    
 	    shape-outside: polygon(59% 2em, 100% 2em, 100% 94%, 89% 94%, 55% 91%, 58% 90%, 58% 85%, 69% 83%, 69% 69%, 99.9% 69%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 42%, 99.9% 39%, 12% 41%, 12% 39%, 53% 34%, 54% 22%, 99.9% 22%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
 	    clip-path: polygon(59% 2em, 100% 2em, 100% 94%, 89% 94%, 55% 91%, 58% 90%, 58% 85%, 69% 83%, 69% 69%, 99.9% 69%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 42%, 99.9% 39%, 12% 41%, 12% 39%, 53% 34%, 54% 22%, 99.9% 22%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
-	    background-color: darkred;
+	    //background-color: darkred;
 
 	    height: 108em;
-    	}
+    }
 	#collage_blurb_no_1 {
 	    max-width: initial;
 	}
 
-	
+	#collage_blurb_no_3 {
+	    /* display: flex; */
+	    display: block;
+	}	
 }
 
 @media (max-width: 1200px) {
@@ -7515,9 +6418,9 @@ body
 	    
 	    shape-outside: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
 	    clip-path: polygon(59% 2em, 100% 2em, 100% 100%, 89% 100%, 50% 97%, 50% 92%, 58% 90%, 58% 89%, 69% 87%, 69% 74%, 99.9% 74%, 99.9% 54%, 41% 53%, 41% 50%, 55% 48%, 55% 44%, 64% 44%, 64% 42.5%, 99.9% 41%, 99.9% 39%, 12% 41%, 12% 39%, 53% 35%, 54% 25%, 99.9% 25%, 99.9% 17%, 59% 17%, 58% 14%, 54% 13%, 51% 9%);
-	    background-color: darkred;
+	    //background-color: darkred;
 	    height: 98em;
-    	}
+    }
 	#collage_blurb_no_1 {
 	    max-width: initial;
 	}
@@ -7529,84 +6432,17 @@ body
 		    height: 21em;
 		    width: 70%;
 		    shape-outside: polygon(100% 19%, 100% 100%, 16% 100%, 16% 85%, 58% 67%, 61% 19% );
-		    clip-path: polygon(100% 19%, 100% 100%, 16% 100%, 16% 85%, 58% 67%, 61% 19% );
+		    //clip-path: polygon(100% 19%, 100% 100%, 16% 100%, 16% 85%, 58% 67%, 61% 19% );
 		    //display: block;
 	}
 
-	#layout-shape-for-collage-no-3 {
-	    background-color: #764abc87;
-		border: purple solid 2px;
-		
-	    float: right;
-
-	    height: 23em;
-
-	    width: 70%;
-
-	    //shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
-	    clip-path: polygon(0 100%, 100% 100%, 100% 65% );
-	}
 	#collage_blurb_no_3 {
 		display: block;
 	}
 
-	#layout-shape-for-collage-no-4 {
-	    background-color: #764abc87;
-		border: purple solid 2px;
-		
-	    float: right;
-
-	    height: 23em;
-
-	    width: 70%;
-
-	    //shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
-	    clip-path: polygon(0 100%, 100% 100%, 100% 65% );
-	}
 	#collage_blurb_no_4 {
 	    width: initial;
 	    max-width: initial;
-	}
-
-	#layout-shape-for-collage-no-5 {
-	    background-color: #764abc87;
-		border: purple solid 2px;
-		
-	    float: right;
-
-	    height: 23em;
-
-	    width: 70%;
-
-	    //shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
-	    clip-path: polygon(0 100%, 100% 100%, 100% 65% );
-	}
-	#layout-shape-for-collage-no-6 {
-	    background-color: #764abc87;
-		border: purple solid 2px;
-		
-	    float: right;
-
-	    height: 23em;
-
-	    width: 70%;
-
-	    //shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
-	    clip-path: polygon(0 100%, 100% 100%, 100% 65% );
-	}
-
-	#layout-shape-for-collage-no-7 {
-	    background-color: #764abc87;
-		border: purple solid 2px;
-		
-	    float: right;
-
-	    height: 23em;
-
-	    width: 70%;
-
-	    //shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
-	    clip-path: polygon(0 100%, 100% 100%, 100% 65% );
 	}
 }
 
@@ -7763,6 +6599,23 @@ body
 }
 
 
+
+@media (max-width: 350px) {
+
+	#diag div:nth-child(2):before {
+	  content: "350px";
+	}
+
+	body {
+		font-size: calc(100vw / 22);
+	}
+
+	h1 {
+	  font-size: 135%;
+	}
+}
+
+
 /*----------------------------------------------*/
 
 
@@ -7803,6 +6656,15 @@ img#collage_hero_img_4 {
 	h1 {
 	  font-size: 175%;
 	}
+	
+	/* HACK for working with percentages, while german text is larger (more lines of text) than english or dutch --> this results in drawing & positioning differences, which are otherwise inexplicable */
+	img#collage_hero_img_2 {
+	    height: 11.5%;
+	}
+	
+	img#collage_hero_img_5 {
+	    height: 19%;
+	}
 }
 
 @media (max-width: 800px) {
@@ -7816,8 +6678,33 @@ img#collage_hero_img_4 {
 	#wb_contact h2 {
 		font-size: 130%;
 	}
+}
+
+
+@media (max-width: 600px) {
+
+	h1 {
+	  font-size: 125%; 
+	}
+
+	#wb_home p {
+		font-size: 110%;
+	}
+
+	/* tweak for Kontaktinformationen @ 800px */
+	#wb_contact h2 {
+		font-size: 115%;
+	}
+
+	img#collage_hero_img_2 {
+		height: 9%;
+		top: 15em;
+		right: -17%;
+	}	
 
 	img#collage_hero_img_5 {
-		top: 86em;
+	    height: 16%;
+		right: -3.5em;
+		top: 96em;
 	}
 }
