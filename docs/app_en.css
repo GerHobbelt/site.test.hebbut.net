@@ -5457,7 +5457,7 @@ img#collage_hero_img_5 {
 	
 	/* override linear gradient from WebBuilder: make sure logo and menu are both clearly visible */
 	//background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 30%, #767676 45%, #000000 100%);
-	background-image: radial-gradient(circle at 8em 7em, rgb(255,255,255) 0%, rgb(255,255,255) 2%, rgb(140,140,140) 18%, rgb(0,0,0) 85%);
+	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 18%, rgb(0,0,0) 85%);
 }
 
 #wb_home {
@@ -6054,7 +6054,7 @@ name {
 
 	#wb_header {
 		/* override linear gradient from WebBuilder: make sure logo and menu are both clearly visible */
-		background-image: radial-gradient(circle at 8em 7em, rgb(255,255,255) 0%, rgb(255,255,255) 2%, rgb(140,140,140) 27%, rgb(0,0,0) 85%);
+		background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 27%, rgb(0,0,0) 85%);
 	}
 
 	#location > .col-1, #location > .col-2, #location > .col-3 {
@@ -6236,7 +6236,7 @@ name {
 	#wb_header
 	{
 	   //background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 40%, #000000 100%);
- 	background-image: radial-gradient(circle at 8em 7em, rgb(255,255,255) 0%, rgb(255,255,255) 2%, rgb(140,140,140) 43%, rgb(0,0,0) 85%);
+ 	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 43%, rgb(0,0,0) 85%);
 	}
 
 	#wb_anniversary-45yr {
@@ -6381,7 +6381,7 @@ name {
 	#wb_header
 	{
 	   //background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 40%, #000000 100%);
- 	background-image: radial-gradient(circle at 8em 7em, rgb(255,255,255) 0%, rgb(255,255,255) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 80%);
+ 	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 80%);
 	}
 
 	#collage_infochunks > div:last-child {
@@ -6484,7 +6484,7 @@ name {
 
 	#wb_header
 	{
-		background-image: radial-gradient(circle at 7em 7em, rgb(255,255,255) 0%, rgb(255,255,255) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
+		background-image: radial-gradient(circle at 7em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
 	}
 
 	body {
