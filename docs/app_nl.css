@@ -5454,6 +5454,9 @@ img#collage_hero_img_5 {
 
 #wb_header {
 	z-index: 2;  /* must be above everything else, including collage images */
+	
+	/* override linear gradient from WebBuilder: make sure logo and menu are both clearly visible */
+	background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 30%, #767676 45%, #000000 100%);
 }
 
 #wb_home {
@@ -6316,6 +6319,11 @@ name {
 
 	body {
 		font-size: calc(100vw / 38);
+	}
+
+	#wb_header
+	{
+	   background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 40%, #000000 100%);
 	}
 
 	#wb_anniversary-45yr {
