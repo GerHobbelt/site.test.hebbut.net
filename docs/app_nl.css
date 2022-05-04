@@ -6260,6 +6260,10 @@ name {
 		background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 20%, rgb(234 231 255) 23%, rgb(47 44 131) 57%, rgb(7 6 136) 86%);
 	}
 
+	#header .col-1 img {
+		height: 5em;
+	}
+
 	#wb_anniversary-45yr {
 	    height: auto;
 	    padding-top: 1em;
@@ -6407,6 +6411,10 @@ name {
 		background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 70%, rgb(7 6 136) 86%);
 	}
 
+	#header .col-1 img {
+		height: 4em;
+	}
+
 	#collage_infochunks > div:last-child {
 	    margin-bottom: 15em;
 	}
@@ -6514,7 +6522,8 @@ name {
 	{
 		//background-image: radial-gradient(circle at 7em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
 		//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
-		background-image: radial-gradient(circle at 6em 1em, rgb(229 226 255) 38%, rgb(234 231 255) 42%, rgb(47 44 131) 69%, rgb(7 6 136) 86%);
+		//background-image: radial-gradient(circle at 6em 1em, rgb(229 226 255) 38%, rgb(234 231 255) 42%, rgb(47 44 131) 69%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 7em -1em, rgb(229 226 255) 34%, rgb(234 231 255) 39%, rgb(47 44 131) 69%, rgb(7 6 136) 86%);
 	}
 
 	body {
