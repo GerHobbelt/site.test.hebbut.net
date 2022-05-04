@@ -2921,7 +2921,7 @@ input:focus, textarea:focus, select:focus
    display: table;
    text-align: center;
    width: 100%;
-   background-image: linear-gradient(to right, #DCDCDC 0%, #000000 100%);
+   //background-image: linear-gradient(to right, #DCDCDC 0%, #000000 100%);
    border: 0px solid #CCCCCC;
    box-sizing: border-box;
    margin: 0;
@@ -3077,7 +3077,7 @@ input:focus, textarea:focus, select:focus
    right: 0;
    bottom: 0;
    left: 0;
-   background-image: linear-gradient(to top, #0000A7 0%, rgba(0,0,167,0.00) 100%);
+   background-image: linear-gradient(to top, #070589 0%, rgba(2,0,139,0.00) 100%);
 }
 #wb_features
 {
@@ -3351,7 +3351,7 @@ input:focus, textarea:focus, select:focus
    right: 0;
    bottom: 0;
    left: 0;
-   background-image: linear-gradient(to top, #00008B 0%, rgba(0,0,139,0.00) 100%);
+   background-image: linear-gradient(to top, #070589 0%, rgba(2,0,139,0.00) 100%);
 }
 #wb_producten .parallax
 {
@@ -3467,7 +3467,7 @@ input:focus, textarea:focus, select:focus
    right: 0;
    bottom: 0;
    left: 0;
-   background-image: linear-gradient(to top, #00008B 0%, rgba(0,0,139,0.00) 100%);
+   background-image: linear-gradient(to top, #070589 0%, rgba(2,0,139,0.00) 100%);
 }
 #wb_about .parallax
 {
@@ -3653,7 +3653,7 @@ input:focus, textarea:focus, select:focus
    right: 0;
    bottom: 0;
    left: 0;
-   background-image: linear-gradient(to top, #000080 0%, rgba(0,0,128,0.00) 100%);
+   background-image: linear-gradient(to top, #070589 0%, rgba(2,0,139,0.00) 128%);
 }
 #wb_contact .parallax
 {
@@ -5457,7 +5457,11 @@ img#collage_hero_img_5 {
 	
 	/* override linear gradient from WebBuilder: make sure logo and menu are both clearly visible */
 	//background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 30%, #767676 45%, #000000 100%);
-	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 18%, rgb(0,0,0) 85%);
+	//background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 18%, rgb(0,0,0) 85%);
+	//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+	background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 8%, rgb(234 231 255) 10%, rgb(47 44 131) 29%, rgb(7 6 136) 86%);
+	
+	filter: drop-shadow(2px 2px 6px black);
 }
 
 #wb_home {
@@ -6067,7 +6071,13 @@ name {
 
 	#wb_header {
 		/* override linear gradient from WebBuilder: make sure logo and menu are both clearly visible */
-		background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 27%, rgb(0,0,0) 85%);
+		//background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 27%, rgb(0,0,0) 85%);
+		//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 11%, rgb(234 231 255) 13%, rgb(47 44 131) 43%, rgb(7 6 136) 86%);
+	}
+
+	#header .col-1 img {
+		height: 5em;
 	}
 
 	#location > .col-1, #location > .col-2, #location > .col-3 {
@@ -6249,7 +6259,13 @@ name {
 	#wb_header
 	{
 	   //background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 40%, #000000 100%);
- 	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 43%, rgb(0,0,0) 85%);
+		//background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 2%, rgb(140,140,140) 43%, rgb(0,0,0) 85%);
+		// background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 15%, rgb(234 231 255) 17%, rgb(47 44 131) 55%, rgb(7 6 136) 86%);
+	}
+
+	#header .col-1 img {
+		height: 5em;
 	}
 
 	#wb_anniversary-45yr {
@@ -6394,7 +6410,13 @@ name {
 	#wb_header
 	{
 	   //background-image: linear-gradient(to right, #DCDCDC 0%, #DCDCDC 40%, #000000 100%);
- 	background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 80%);
+		//background-image: radial-gradient(circle at 8em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 80%);
+		//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 6em -2em, rgb(229 226 255) 17%, rgb(234 231 255) 20%, rgb(47 44 131) 57%, rgb(7 6 136) 86%);
+	}
+
+	#header .col-1 img {
+		height: 4em;
 	}
 
 	#collage_infochunks > div:last-child {
@@ -6458,6 +6480,11 @@ name {
 		font-size: calc(100vw / 24);
 	}
 
+	#wb_header
+	{
+		background-image: radial-gradient(circle at 6em -3em, rgb(229 226 255) 22%, rgb(234 231 255) 26%, rgb(47 44 131) 61%, rgb(7 6 136) 86%);
+	}
+
 	h1 {
 	  font-size: 150%;
 	}
@@ -6497,7 +6524,10 @@ name {
 
 	#wb_header
 	{
-		background-image: radial-gradient(circle at 7em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
+		//background-image: radial-gradient(circle at 7em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
+		//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+		//background-image: radial-gradient(circle at 6em 1em, rgb(229 226 255) 38%, rgb(234 231 255) 42%, rgb(47 44 131) 69%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 6em -1em, rgb(229 226 255) 19%, rgb(234 231 255) 23%, rgb(47 44 131) 58%, rgb(7 6 136) 86%);
 	}
 
 	body {
@@ -6553,6 +6583,13 @@ name {
 
 	body {
 		font-size: calc(100vw / 22);
+	}
+	
+	#wb_header
+	{
+		//background-image: radial-gradient(circle at 7em 7em, rgb(240,240,240) 0%, rgb(240,240,240) 10%, rgb(140,140,140) 52%, rgb(0,0,0) 86%);
+		//background-image: radial-gradient(circle at 8em -3em, rgb(229 226 255) 14%, rgb(234 231 255) 34%, rgb(47 44 131) 74%, rgb(7 6 136) 86%);
+		background-image: radial-gradient(circle at 5em 0em, rgb(229 226 255) 8%, rgb(234 231 255) 13%, rgb(47 44 131) 69%, rgb(7 6 136) 76%);
 	}
 
 	h1 {
