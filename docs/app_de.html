@@ -415,38 +415,60 @@ catch (ex) {
 <script type="text/javascript">
 
 try {
-	let el = document.querySelector("#ResponsiveMenu1-submenu");
-	console.log({el})
-		
-	el.addEventListener('change', signalMenuStatus);
-	
-	addEventListener('hashchange', resetMenuStatusOnJump);
-
-	function signalMenuStatus(e) {
-	  console.log({e, target: e.target, checked: e.target.checked })
-	  
-		const body = document.querySelector('body');
-		
-		if (e.target.checked) {
-			//body.classList.remove("menu-folded");
-			body.classList.add("menu-active");	  
-		}
-		else {
-			//body.classList.add("menu-folded");
-			body.classList.remove("menu-active");	  
-		}
-	}	
+	const menu_tick_id_classes = [ { id: "#ResponsiveMenu1-submenu", cls: "menu" }, { id: "#ResponsiveMenu1-submenu-0", cls: "lang-submenu" } ];
 
 	function resetMenuStatusOnJump(e) {
 	  console.log({e, target: e.target, checked: e.target.checked })
 	  
-		el.checked = false;
+		for (let spec of menu_tick_id_classes) {
+			let el = document.querySelector(spec.id);
+			el.checked = false;
+		}
 	}	
+	
+	for (let spec of menu_tick_id_classes) {
+		let el = document.querySelector(spec.id);
+		console.log({el})
+
+		const signalMenuStatus = function (e) {
+		  console.log({e, target: e.target, checked: e.target.checked })
+		  
+			const body = document.querySelector('body');
+			
+			if (e.target.checked) {
+				//body.classList.remove("menu-folded");
+				body.classList.add(spec.cls + "-active");	  
+			}
+			else {
+				//body.classList.add("menu-folded");
+				body.classList.remove(spec.cls + "-active");	  
+			}
+		}	
+
+		el.addEventListener('change', signalMenuStatus);
+
+		el.parentElement.addEventListener('mouseenter', function (e) {
+			console.log("mouse-enter", {e, target: e.target, checked: e.target.checked })
+		  
+			const body = document.querySelector('body');
+			
+				body.classList.add(spec.cls + "-hovered");	  
+		});
+
+		el.parentElement.addEventListener('mouseleave', function (e) {
+			console.log("mouse-leave", {e, target: e.target, checked: e.target.checked })
+		  
+			const body = document.querySelector('body');
+			
+				body.classList.remove(spec.cls + "-hovered");	  
+		});
+	}
+		
+	addEventListener('hashchange', resetMenuStatusOnJump);
 }
 catch (ex) {
 	console.error("b0rk", {ex: ex});
 }
-
 
 </script>
 </body>
