@@ -79,7 +79,7 @@ catch (ex) {
 	
 </head>
 <body>
-	<div id="diag"><div> </div><div> </div><div> </div></div>
+	<div id="diag"><div> </div><div> </div><div> </div><p id="browser_info"> </p></div>
    <div id="wb_header">
       <div id="header">
          <div class="col-1">
@@ -465,6 +465,14 @@ try {
 	}
 		
 	addEventListener('hashchange', resetMenuStatusOnJump);
+	
+	
+	let browser_info = window.navigator.userAgent;
+	
+	let el = document.querySelector("#browser_info");
+	if (el) {
+		el.textContent = browser_info;
+	}
 }
 catch (ex) {
 	console.error("b0rk", {ex: ex});

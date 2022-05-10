@@ -2439,3 +2439,14 @@ p.emphasized-heading {
     font-size: 135%;
   }
 }
+
+#collage_blurb_no_1 {
+	outline: 1px solid green;
+	border: 1px solid red;
+}
+
+#layout-shape-for-collage-no-1 {
+	outline: 1px solid lightblue;
+	border: 1px solid yellow;
+}
+	
