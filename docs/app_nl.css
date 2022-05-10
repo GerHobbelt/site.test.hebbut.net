@@ -5768,7 +5768,8 @@ p.emphasized-heading {
     /* top: 4.4em; */
     top: 3.5em;
     /* top: auto; */
-        margin-top: 1.45em;
+    
+        padding-top: 1.45em;   /* use padding, NOT MARGIN!, to ensure that the mouse movement is picked up smoothly from the parent (LABEL+INPUT) in HOVER mode */
 }
 #wb_ResponsiveMenu1 ul ul li a {
     padding-right: 0.75em;
