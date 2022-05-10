@@ -5594,6 +5594,8 @@ p.emphasized-heading {
     top: auto;
     //border: 1px solid red;
     z-index: 10;
+    
+    outline: 1px solid red;
 }
 
 #about_texts p {
@@ -5619,25 +5621,6 @@ p.emphasized-heading {
 
 
 
-
-/* adjust jump targets so leader images are in full view on menu jump: */
-name {
-    position: relative;
-    bottom: 7em;
-    left: 0;
-    height: 0;
-    display: block;
-    //border: 1px red solid;
-    //z-index: 1;
-}
-
-.menu-active #producten, .menu-active #about, .menu-active #contact {
-    //margin-top: -12em;
-}
-
-.menu-active #home {
-    //margin-top: -12em;
-}
 
 
 .mobile-phone-icon {
@@ -5742,6 +5725,55 @@ name {
 
 
 /* tweak language submenu dropdown colors for > 1200px: override WebBuilder output */
+
+/* precede by general tweaks / overrides for the dropdown menus: override WebBuilder output */
+#wb_ResponsiveMenu1 ul label.toggle {
+    display: block;
+    
+    padding: 0.25em 0.75em 0.25em 0.25em;
+}
+//#wb_ResponsiveMenu1 ul label i:first-child {
+//    display: block;
+//    /* hacky fix for the lacking BR node that exists in the other (sibling) menu items */
+//    //padding-top: 0.2em;    
+//        padding-bottom: 0.075em;
+//}
+#wb_ResponsiveMenu1 > ul > li > label {
+    display: block;
+    text-align: center;
+}
+#wb_ResponsiveMenu1 ul label:hover {
+   //background-color: #696969;
+   //background-color: rgba(105,105,105,0.00);
+   color: #F8E0BE;
+}
+/* touch + desktop: click on language menu entry should 'permanently' show the language choices submenu dropdown */
+/* [id^=ResponsiveMenu1-submenu]:checked + ul */
+#ResponsiveMenu1-submenu-0:checked + ul
+{
+   display: block !important;
+
+   //background-color: red;
+   //background-color: rgba(105,0,0,0.10);
+   background-color: rgba(105,0,0,0);
+}
+#wb_ResponsiveMenu1 > ul > li > a {
+    height: auto;
+}
+#wb_ResponsiveMenu1 > ul > li:lst-child > a {
+    display: none;
+}
+#wb_ResponsiveMenu1 ul ul {
+    right: 0.35em;
+    /* top: 4.4em; */
+    top: 3.5em;
+    /* top: auto; */
+        margin-top: 1.45em;
+}
+#wb_ResponsiveMenu1 ul ul li a {
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+}
 #wb_ResponsiveMenu1 ul ul li a {
     background-color: rgb(24, 23, 88);
 }
@@ -5752,7 +5784,53 @@ name {
     //color: #F8E0BE;
        background-color: rgb(45 43 163);
 }
+/* also add offset to the language dropdown triangle */
+#wb_ResponsiveMenu1 .fa-caret-down {
+    margin-left: 0.35em !important;
+}
 
+/* fix position of language dropdown in desktop menu to bottom of top bar */
+@media all and (max-width:1800px) 
+{
+
+	#wb_ResponsiveMenu1 ul ul {
+	        padding-top: 1.4em;
+		margin-top: 0;
+	}
+
+}
+@media all and (max-width:1500px) 
+{
+
+	#wb_ResponsiveMenu1 ul ul {
+	        padding-top: 0.85em;
+	}
+
+}
+@media all and (max-width:1200px) 
+{
+
+	#wb_ResponsiveMenu1 ul {
+	    margin-top: 1.85em;
+	}
+
+}
+@media all and (max-width:930px) 
+{
+
+	#wb_ResponsiveMenu1 ul {
+	    margin-top: 1.35em;
+	}
+
+}
+@media all and (max-width:800px) 
+{
+
+	#wb_ResponsiveMenu1 ul {
+	    margin-top: 1.32em;
+	}
+
+}
 
 
 
@@ -5872,7 +5950,7 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 //    border: 1px red solid;
     top: auto;
     right: 0;
-    margin-top: 1.5em;
+//    margin-top: 1.85em;
     
     width: 12em;
 }
@@ -5910,6 +5988,11 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 #wb_ResponsiveMenu1 ul ul ul a 
 {
    padding: 0.25em 0.25em 0.25em 0.75em;
+}
+#wb_ResponsiveMenu1 ul li a,
+#wb_ResponsiveMenu1 ul li label.toggle {
+    padding-right: 0.75em;
+    padding-left: 0.75em;
 }
 #wb_ResponsiveMenu1 ul li a 
 {
@@ -5985,6 +6068,17 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 #wb_ResponsiveMenu1 ul li ul li .toggle:hover .arrow-down, #wb_ResponsiveMenu1 ul li ul li .active .arrow-down
 {
    border-top-color: #F8E0BE;
+}
+
+/* back-patching the general tweaks doen for the all-rez' desktop language submenu... sigh */
+#wb_ResponsiveMenu1 ul li label br {
+    display: none;
+}
+#wb_ResponsiveMenu1 > ul > li > label {
+    text-align: left;
+}
+#wb_ResponsiveMenu1 ul ul {
+    padding-top: 0;
 }
 
 }
@@ -6092,6 +6186,44 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 	#wb_header {
 		position: absolute;
 	}
+
+	/* adjust jump targets so leader images are in full view on menu jump: */
+
+	#producten, #about, #contact {
+	    margin-top: 0em !important;  /* !important added to win priority over the 930px regular portrait adjustment of the same further below */
+    
+	    outline: 1px solid lightgreen;
+	}
+
+	#home {
+	    //margin-top: -12em;
+	}
+	
+}
+
+/* *also* make top menu bar move with the page to allow user to scroll through the content when they have a screen that's only a few "text lines" high, for whatever reason, e.g. extreme scaling/zooming */
+@media only screen and (max-height: 37rem)
+{
+	#diag div:nth-child(3):before {
+	  content: "land:low-reading-height";
+	}
+
+	#wb_header {
+		position: absolute;
+	}
+
+	/* adjust jump targets so leader images are in full view on menu jump: */
+
+	#producten, #about, #contact {
+	    margin-top: 0em;
+    
+	    outline: 1px solid lightgreen;
+	}
+
+	#home {
+	    //margin-top: -12em;
+	}
+	
 }
 
 
@@ -6577,6 +6709,21 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 	    margin-right: auto;
 	    display: block;
 	}
+
+
+
+	/* adjust jump targets so leader images are in full view on menu jump: */
+
+	#producten, #about, #contact {
+	    margin-top: -4em;
+    
+	    outline: 1px solid lightblue;
+	}
+
+	#home {
+	    //margin-top: -12em;
+	}
+	
 }
 
 @media (max-width: 800px) {
