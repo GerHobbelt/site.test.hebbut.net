@@ -5250,7 +5250,7 @@ img#collage_hero_img_5 {
 }
 
 #collage_blurb_no_3 {
-	top: 30%;
+	top: 32%;
     left: 0;
     width: 43%;
     height: 30%;   /* fix the height, so we can vertically-center the content for this blurb */
@@ -5282,7 +5282,7 @@ img#collage_hero_img_5 {
 	top: 52%;
     left: 66%;
     width: 20%;
-	max-width: 35em;
+	max-width: 41em;
 	
 	//border: 2px solid green;
 }
@@ -5310,7 +5310,7 @@ img#collage_hero_img_5 {
 
 
 #layout-shape-for-collage-no-1 {
-    //background-color: #764abc87;
+    background-color: #764abc87;
 	//border: purple solid 2px;
     float: right;
 
@@ -5320,17 +5320,16 @@ img#collage_hero_img_5 {
 	   EDIT: Bzzzzt! This is a Chrome bug: when editing these values in the Chrome Dev panel, you can change these values but then they behave as described above **while editing**.
 	   Once you've patched the edits into this CSS file and [F5] reloaded the page, it suddenly behaves as expected: 100% for both is the right edge of the parent div.
 	 */
-    height: 23em;
-
-    width: 30em;
+    height: 19em;
+    width: 12em;
 
     /* shape-outside: polygon(0 100%, 100% 100%, 100% 30% );  -- see Chrome Dev Panel note above; this was what worked there, during editing. But Screwed up royally after reload. */
-    shape-outside: polygon(0 100%, 100% 100%, 100% 65% );   /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
+    shape-outside: polygon(6% 86%, 7% 100%, 100% 93%, 100% 62% );    /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
    	    /* for debugging the shape-outside: */
 		
-	clip-path: polygon(0 100%, 100% 100%, 100% 65% );
-	
+    clip-path: polygon(6% 86%, 7% 100%, 100% 93%, 100% 62% );
 }
+
 #layout-shape-for-collage-no-2 {
 	display: none;
 }
@@ -6269,6 +6268,17 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 	}
 	
 
+#layout-shape-for-collage-no-1 {
+    height: 18em;
+    width: 8em;
+
+    /* shape-outside: polygon(0 100%, 100% 100%, 100% 30% );  -- see Chrome Dev Panel note above; this was what worked there, during editing. But Screwed up royally after reload. */
+    shape-outside: polygon(6% 85%, 7% 97%, 100% 91%, 100% 62% );    /* the expected value, matching our clip-path, which we've used to visually design the polygon in Dev Panel */
+   	    /* for debugging the shape-outside: */
+		
+    clip-path: polygon(6% 85%, 7% 97%, 100% 91%, 100% 62% );
+}
+
 
 
 	#about_texts > .row > .col-1 {
@@ -6461,8 +6471,8 @@ body.lang-submenu-hovered #wb_ResponsiveMenu1 ul ul
 	    
 		background-color: #FF1F5B;  
 		
-
 	    height: 108em;
+		    width: 30em;
     }
 	#collage_blurb_no_1 {
 	    max-width: initial;
@@ -6933,11 +6943,24 @@ img#collage_hero_img_4 {
     left: calc(50% - 11%);
 }
 
-
 #collage_blurb_no_3 {
-    top: 32%;
+    top: 33%;
 }	
 
+#collage_blurb_no_3 p {
+	max-width: 26em;
+}
+
+
+
+
+@media (max-width: 1800px) {
+
+#collage_blurb_no_3 {
+    top: 43%;
+}	
+
+}
 
 
 
