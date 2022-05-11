@@ -485,6 +485,8 @@ try {
 	
 	let browser_info = window.navigator.userAgent || '';
 	let browser_platform =  window.navigator.platform  || '';
+	alert(`platform: ${ browser_platform }`);
+	alert(`info: ${ browser_info }`);
 	
 	if (0) {
 		let el = document.querySelector("#browser_info");
@@ -522,6 +524,7 @@ try {
 }
 catch (ex) {
 	console.error("b0rk", {ex: ex});
+	alert(`ex: ${ ex }`);
 }
 
 
