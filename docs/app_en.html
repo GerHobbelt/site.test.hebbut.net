@@ -206,6 +206,10 @@ catch (ex) {
 <p>We are your partner when you are looking for a reliable manufacturer of high voltage transformers and electronic high voltage power supplies.</p>
 <p>We supply to global players in the arenas of air purification, water purification, ignition &amp; ionization.</p>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_1_for_apple">
+			<img src="pic0016.webp" alt="photo of one of our high voltage transformer products"  title="photo of one of our high voltage transformer products" >
+		</div>
+			
 		
 <div id="collage_blurb_no_2" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-2"></div>
@@ -219,6 +223,10 @@ catch (ex) {
 </ul>
 <p>It goes without saying that our power supplies are available on request with galvanically isolated communication for <em>computer-assisted monitoring</em> and <em>control</em> based on standard protocols, including Modbus.</p>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_2_for_apple">
+			<img src="IMG_20220408_162558.webp" alt="photo of one of our high voltage transformer products"  title="photo of one of our high voltage transformer products" >
+		</div>
+			
 		
 <div id="collage_blurb_no_3" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-3"></div>
@@ -232,6 +240,10 @@ catch (ex) {
 <li>disinfection of fruit and vegetables to extend their shelf&nbsp;life</li>
 </ul>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_3_for_apple">
+			<img src="IMG_20220408_141922.webp" alt="photo of one of our high voltage transformer products"  title="photo of one of our high voltage transformer products" >
+		</div>
+			
 		
 <div id="collage_blurb_no_4" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-4"></div>
@@ -251,6 +263,10 @@ catch (ex) {
 <li>neon advertising</li>
 </ul>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_5_for_apple">
+			<img src="pic00010-clipped.webp" alt="photo of one of our high voltage transformer products"  title="photo of one of our high voltage transformer products" >
+		</div>
+			
 		
 <div id="collage_blurb_no_6" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-6"></div>
@@ -305,7 +321,7 @@ catch (ex) {
                   <div id="wb_anniversary-45yr">
                      <img src="45jaarv2.webp" id="anniversary-45yr" alt="Picardi: 45th anniversary of our company: February 22, 1975 &ndash; February 22, 2020"  class="Image-HeroVertical" title="Picardi: 45th anniversary of our company: February 22, 1975 &ndash; February 22, 2020" >
                   </div>
-                  <p>Picardi B.V. has pursued a two-pillar strategy from the start with clear attention to environmentally oriented R&amp;D: minimum waste, maximum quality. Joined at the hip with our regional &ldquo;keep calm, carry on&rdquo; <i>elan</i>.</p>
+                  <p>Picardi B.V. has pursued a two-pillar strategy from the start with clear attention to environmentally oriented R&amp;D: minimum waste, maximum quality. Joined at the hip with our regional &ldquo;keep calm, carry on&rdquo; <i lang="fr">&eacute;lan</i>.</p>
 <p>Our continuous efforts have resulted in us having acquired a rich knowledge and long experience with various materials, designs and production methods.</p>
 <p>Starting in 1975 with classic &laquo;50 Hertz&raquo;, in 2022 we have grown into specialists, expert at developing high-frequency and (very) high efficiency electronic power supplies for various high voltage applications, which can be easily integrated into existing or new control systems.</p>
 <p>&ldquo;Preserving our environment by using our natural resources wisely and efficiently&rdquo; includes social engagement and commitment. Indeed, we are not only proud of our products, but also proud of the remarkably low staff turnover in our company: old and young work side by side, together as a team. Which is why we are also a recognized training company.<br>We remain a growing family business: in 2022 the Picardi family consists of 12 core members of all ages.</p>
@@ -467,11 +483,41 @@ try {
 	addEventListener('hashchange', resetMenuStatusOnJump);
 	
 	
-	let browser_info = window.navigator.userAgent;
+	let browser_info = window.navigator.userAgent || '';
+	let browser_platform =  window.navigator.platform  || '';
 	
-	let el = document.querySelector("#browser_info");
-	if (el) {
-		//el.textContent = browser_info;
+	if (0) {
+		let el = document.querySelector("#browser_info");
+		if (el) {
+			el.textContent = browser_info;
+		}
+	}
+	
+	// detect any browser on an Apple device: those screw up the CSS3 shape-outside rendering at lower resolutions *at least*,
+	// PLUS they b0rk the root font size calculation, probably by some crazy rounding error somewhere (we take 100vw and divide 
+	// that by a number, which should give us pretty solid font size estimates when we want to fit N characters on a line at 
+	// resolution X, but both iPad Safari and iPad Chrome have shown to be able to screw this us in an major way by oversizing
+	// the font, i.e. the calculus result.
+	// Haven't been able to find out *what* goes wrong exactly, but that's issue 1.
+	//
+	// Issue 2 is that any CSS3 shape-outside polygon is corrupted/mistreated once it treads outside its parent/container DIV,
+	// which is what we do with the single polygon floating over the multitude of content DIVs in the 'collage'  section
+	// of the web-page.
+	//
+	// End result: do a completely different design ffor Apple machines, so they won't have to bother with that shape-outside
+	// stuff at all. GRMBL!
+	//
+	// https://stackoverflow.com/questions/64654591/if-applewebkit-appears-in-the-user-agent-does-that-mean-its-definitely-an-apple
+	//
+	// https://stackoverflow.com/questions/17344601/detect-only-mobile-users-with-desktop-mode-browsers
+	{
+		const body = document.querySelector('body');
+		if (/Mac/i.test(browser_platform) || /iPhone/i.test(browser_platform) || /iPad/i.test(browser_platform) || /iPod/i.test(browser_platform)) {
+			body.classList.add('bloody-apple-crap');
+		}
+		else {
+			body.classList.remove('bloody-apple-crap');
+		}
 	}
 }
 catch (ex) {

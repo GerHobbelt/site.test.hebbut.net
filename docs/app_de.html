@@ -206,6 +206,10 @@ catch (ex) {
 <p>Wir sind Ihr Partner, wenn Sie einen zuverl&auml;ssigen Hersteller von Hochspannungs&shy;transformatoren und elektronischen Netzteilen suchen.</p>
 <p>Wir beliefern internationale Konzerne im Bereich Luftreinigung, Wasseraufbereitung, Z&uuml;ndtechnik &amp; Ionisierung.</p>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_1_for_apple">
+			<img src="pic0016.webp" alt="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen"  title="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen" >
+		</div>
+			
 		
 <div id="collage_blurb_no_2" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-2"></div>
@@ -219,6 +223,10 @@ catch (ex) {
 </ul>
 <p>Selbstverst&auml;ndlich werden unsere Netzteile nach Wunsch geliefert mit galvanisch getrennter Kommunikation zum <em>computer&shy;gest&uuml;tzte &Uuml;berwachung</em> und <em>Steuerung</em>, alles basiert auf Standard&shy;protokollen, einschlie&szlig;lich Modbus.</p>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_2_for_apple">
+			<img src="IMG_20220408_162558.webp" alt="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen"  title="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen" >
+		</div>
+			
 		
 <div id="collage_blurb_no_3" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-3"></div>
@@ -232,6 +240,10 @@ catch (ex) {
 <li>Desinfektion von Obst und Gem&uuml;se zur Verl&auml;ngerung der Haltbarkeit</li>
 </ul>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_3_for_apple">
+			<img src="IMG_20220408_141922.webp" alt="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen"  title="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen" >
+		</div>
+			
 		
 <div id="collage_blurb_no_4" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-4"></div>
@@ -251,6 +263,10 @@ catch (ex) {
 <li>Neon-Werbebeleuchtung</li>
 </ul>
 </div>
+		<div class="bloody-apple-img-hack" id="collage_hero_img_5_for_apple">
+			<img src="pic00010-clipped.webp" alt="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen"  title="Foto einer unserer Hochspannungstransformator Ausf&uuml;hrungen" >
+		</div>
+			
 		
 <div id="collage_blurb_no_6" class="collage_text_blurb">
 <div id="layout-shape-for-collage-no-6"></div>
@@ -467,11 +483,41 @@ try {
 	addEventListener('hashchange', resetMenuStatusOnJump);
 	
 	
-	let browser_info = window.navigator.userAgent;
+	let browser_info = window.navigator.userAgent || '';
+	let browser_platform =  window.navigator.platform  || '';
 	
-	let el = document.querySelector("#browser_info");
-	if (el) {
-		//el.textContent = browser_info;
+	if (0) {
+		let el = document.querySelector("#browser_info");
+		if (el) {
+			el.textContent = browser_info;
+		}
+	}
+	
+	// detect any browser on an Apple device: those screw up the CSS3 shape-outside rendering at lower resolutions *at least*,
+	// PLUS they b0rk the root font size calculation, probably by some crazy rounding error somewhere (we take 100vw and divide 
+	// that by a number, which should give us pretty solid font size estimates when we want to fit N characters on a line at 
+	// resolution X, but both iPad Safari and iPad Chrome have shown to be able to screw this us in an major way by oversizing
+	// the font, i.e. the calculus result.
+	// Haven't been able to find out *what* goes wrong exactly, but that's issue 1.
+	//
+	// Issue 2 is that any CSS3 shape-outside polygon is corrupted/mistreated once it treads outside its parent/container DIV,
+	// which is what we do with the single polygon floating over the multitude of content DIVs in the 'collage'  section
+	// of the web-page.
+	//
+	// End result: do a completely different design ffor Apple machines, so they won't have to bother with that shape-outside
+	// stuff at all. GRMBL!
+	//
+	// https://stackoverflow.com/questions/64654591/if-applewebkit-appears-in-the-user-agent-does-that-mean-its-definitely-an-apple
+	//
+	// https://stackoverflow.com/questions/17344601/detect-only-mobile-users-with-desktop-mode-browsers
+	{
+		const body = document.querySelector('body');
+		if (/Mac/i.test(browser_platform) || /iPhone/i.test(browser_platform) || /iPad/i.test(browser_platform) || /iPod/i.test(browser_platform)) {
+			body.classList.add('bloody-apple-crap');
+		}
+		else {
+			body.classList.remove('bloody-apple-crap');
+		}
 	}
 }
 catch (ex) {

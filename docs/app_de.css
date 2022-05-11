@@ -4964,6 +4964,8 @@ h1 {
     margin-right: auto !important;
     margin-top: 1.5em !important;
     //margin-bottom: 0.33em;
+	
+	font-size: 190%;    /* override browser default (Chrome: 200%) */
 }
 
 h2 {
@@ -4975,6 +4977,8 @@ h2 {
 
     display: block;
     //margin-bottom: 0.33em;
+	
+	font-size: 150%;    /* override browser default (Chrome: 150%) */
 }
 
 h3 {
@@ -5090,6 +5094,96 @@ Features bar, 4 secties breed: zorg voor correcte witruimte en beperkte breedte 
 #features {
     padding: 3em 0.75em 3em 0.75em;
 }
+
+
+
+
+
+/* default assumption: not displayed on an Apple device, hence DO NOT SHOW the Apple Hack DOM elements */
+.bloody-apple-img-hack {
+	display: none;
+}
+
+/* show the Apple DOM elements when applicable: only at or below 1500px when we switch to single-column display 
+  for the Collage... */
+@media all and (max-width:1500px) 
+{
+	  
+	body.bloody-apple-crap .bloody-apple-img-hack {
+		display: block;
+	}
+	
+	/* and TURN OFF any 'regular display' elements! */
+	body.bloody-apple-crap #collage_hero_img_2,
+	body.bloody-apple-crap #collage_hero_img_3,
+	body.bloody-apple-crap #collage_hero_img_4,
+	body.bloody-apple-crap #collage_hero_img_5 {
+		display: none !important;
+	}
+	
+	body.bloody-apple-crap #layout-shape-for-collage-no-1,
+	body.bloody-apple-crap #layout-shape-for-collage-no-2,
+	body.bloody-apple-crap #layout-shape-for-collage-no-3,
+	body.bloody-apple-crap #layout-shape-for-collage-no-4,
+	body.bloody-apple-crap #layout-shape-for-collage-no-5,
+	body.bloody-apple-crap #layout-shape-for-collage-no-6,
+	body.bloody-apple-crap #layout-shape-for-collage-no-7 {
+		display: none;
+	}
+
+	body.bloody-apple-crap #collage_infochunks p {
+		//outline: 3px solid lightgreen;
+	}
+
+	body.bloody-apple-crap #collage_blurb_no_1,
+	body.bloody-apple-crap #collage_blurb_no_2,
+	body.bloody-apple-crap #collage_blurb_no_3,
+	body.bloody-apple-crap #collage_blurb_no_4,
+	body.bloody-apple-crap #collage_blurb_no_5,
+	body.bloody-apple-crap #collage_blurb_no_6,
+	body.bloody-apple-crap #collage_blurb_no_7 {
+		max-width: 60em !important;
+	}
+}
+
+/*
+ correct for roundup or other math calc errors in Apple mobiles, e.g. iPad:
+correction factor is 0.9
+*/
+@media (max-width: 350px) {
+
+body.bloody-apple-crap {
+    font-size: calc(0.9 * 100vw / 22);r
+}
+
+}
+@media (max-width: 600px) {
+body.bloody-apple-crap {
+    font-size: calc(0.9 * 100vw / 22);
+}
+}
+@media (max-width: 800px) {
+body.bloody-apple-crap {
+    font-size: calc(0.9 * 100vw / 24);
+}
+}
+@media (max-width: 930px) {
+body.bloody-apple-crap {
+    font-size: calc(0.9 * 100vw / 28);
+}
+}
+
+.bloody-apple-img-hack {
+	text-align: center;
+}
+
+.bloody-apple-img-hack img {
+	max-width: 50vw;
+}
+
+
+
+
 
 
 /* custom layout for the collage section of the web site page */
