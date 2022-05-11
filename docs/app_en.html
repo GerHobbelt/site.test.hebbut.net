@@ -486,6 +486,12 @@ try {
 	let browser_info = window.navigator.userAgent || '';
 	let browser_platform =  window.navigator.platform  || '';
 	
+	// debugging...
+	if (0) {
+		alert(`platform: ${ browser_platform }`);
+		alert(`info: ${ browser_info }`);
+	}
+	
 	if (0) {
 		let el = document.querySelector("#browser_info");
 		if (el) {

@@ -235,8 +235,8 @@ catch (ex) {
 <ul>
 <li>hocheffiziente elektrostatische Luftreinigung</li>
 <li>Nachhaltige Technik gegen Feinstaub</li>
-<li>Trinkwasseraufbereitung</li>
-<li>Poolwasserreinigung</li>
+<li>Trinkwasser&shy;aufbereitung</li>
+<li>Poolwasser&shy;reinigung</li>
 <li>Desinfektion von Obst und Gem&uuml;se zur Verl&auml;ngerung der Haltbarkeit</li>
 </ul>
 </div>
@@ -485,6 +485,12 @@ try {
 	
 	let browser_info = window.navigator.userAgent || '';
 	let browser_platform =  window.navigator.platform  || '';
+	
+	// debugging...
+	if (0) {
+		alert(`platform: ${ browser_platform }`);
+		alert(`info: ${ browser_info }`);
+	}
 	
 	if (0) {
 		let el = document.querySelector("#browser_info");
