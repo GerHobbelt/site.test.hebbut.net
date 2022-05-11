@@ -465,10 +465,19 @@ try {
 	}
 		
 	addEventListener('hashchange', resetMenuStatusOnJump);
+	
+	
+	let browser_info = window.navigator.userAgent;
+	
+	let el = document.querySelector("#browser_info");
+	if (el) {
+		//el.textContent = browser_info;
+	}
 }
 catch (ex) {
 	console.error("b0rk", {ex: ex});
 }
+
 
 </script>
 </body>

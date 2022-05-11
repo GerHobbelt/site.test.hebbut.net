@@ -217,7 +217,7 @@ catch (ex) {
 <li>Z&uuml;ndspule &amp; Bobine</li>
 <li>verschiedene wissenschaftliche Anwendungen</li>
 </ul>
-<p>Selbstverst&auml;ndlich werden unsere Netzteile nach Wunsch geliefert mit galvanisch getrennter Kommunikation zum <em>computergest&uuml;tzte &Uuml;berwachung</em> und <em>Steuerung</em>, alles basiert auf Standard&shy;protokollen, einschlie&szlig;lich Modbus.</p>
+<p>Selbstverst&auml;ndlich werden unsere Netzteile nach Wunsch geliefert mit galvanisch getrennter Kommunikation zum <em>computer&shy;gest&uuml;tzte &Uuml;berwachung</em> und <em>Steuerung</em>, alles basiert auf Standard&shy;protokollen, einschlie&szlig;lich Modbus.</p>
 </div>
 		
 <div id="collage_blurb_no_3" class="collage_text_blurb">
@@ -465,10 +465,19 @@ try {
 	}
 		
 	addEventListener('hashchange', resetMenuStatusOnJump);
+	
+	
+	let browser_info = window.navigator.userAgent;
+	
+	let el = document.querySelector("#browser_info");
+	if (el) {
+		//el.textContent = browser_info;
+	}
 }
 catch (ex) {
 	console.error("b0rk", {ex: ex});
 }
+
 
 </script>
 </body>

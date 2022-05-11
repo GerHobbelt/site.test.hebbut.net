@@ -1171,6 +1171,8 @@ img#collage_hero_img_5 {
   width: 37%;
 }
 #layout-shape-for-collage-no-1 {
+  -webkit-clip-path: polygon(0 100%, 100% 100%, 100% 65%);
+  clip-path: polygon(0 100%, 100% 100%, 100% 65%);
   float: right;
   height: 23em;
   shape-outside: polygon(0 100%, 100% 100%, 100% 65%);
@@ -1763,7 +1765,7 @@ p.emphasized-heading {
     width: 75%;
   }
   img#collage_hero_img_2 {
-    height: 12%;
+    height: 15em;
     left: auto;
     right: 2%;
     top: 4em;
@@ -1953,7 +1955,7 @@ p.emphasized-heading {
     width: 75%;
   }
   img#collage_hero_img_2 {
-    height: 12%;
+    height: 14em;
     left: auto;
     right: 2%;
     top: 4em;
@@ -1971,7 +1973,7 @@ p.emphasized-heading {
   }
   img#collage_hero_img_5 {
     bottom: auto;
-    height: 20%;
+    height: 24.5em;
     right: 1em;
     top: 75em;
   }
@@ -2096,6 +2098,22 @@ p.emphasized-heading {
   }
   #layout-shape-for-collage-no-2 {
     background-color: #764abc87;
+    -webkit-clip-path: polygon(
+      100% 19%,
+      100% 100%,
+      16% 100%,
+      16% 85%,
+      58% 67%,
+      61% 19%
+    );
+    clip-path: polygon(
+      100% 19%,
+      100% 100%,
+      16% 100%,
+      16% 85%,
+      58% 67%,
+      61% 19%
+    );
     float: right;
     height: 21em;
     shape-outside: polygon(
@@ -2145,7 +2163,7 @@ p.emphasized-heading {
     width: 82%;
   }
   img#collage_hero_img_2 {
-    right: -12%;
+    right: -11%;
   }
   img#collage_hero_img_3 {
     top: 32em;
@@ -2155,10 +2173,75 @@ p.emphasized-heading {
     top: 55.5em;
   }
   img#collage_hero_img_5 {
+    height: 24.5em;
     right: -2.8em;
     top: 80em;
   }
   #layout-shape-for-collage-no-1 {
+    -webkit-clip-path: polygon(
+      68% 2em,
+      100% 2em,
+      100% 100%,
+      89% 99%,
+      53% 97%,
+      53% 92%,
+      64% 91%,
+      64% 89%,
+      82% 88%,
+      81% 75%,
+      99.9% 75%,
+      99.9% 59%,
+      41% 58%,
+      41% 56%,
+      55% 56%,
+      55% 53%,
+      64% 53%,
+      64% 52%,
+      99.9% 52%,
+      99.9% 38%,
+      12% 40%,
+      12% 38%,
+      53% 36%,
+      54% 29%,
+      99.9% 29%,
+      99.9% 17%,
+      64% 17%,
+      64% 14%,
+      55% 13%,
+      53% 8%
+    );
+    clip-path: polygon(
+      68% 2em,
+      100% 2em,
+      100% 100%,
+      89% 99%,
+      53% 97%,
+      53% 92%,
+      64% 91%,
+      64% 89%,
+      82% 88%,
+      81% 75%,
+      99.9% 75%,
+      99.9% 59%,
+      41% 58%,
+      41% 56%,
+      55% 56%,
+      55% 53%,
+      64% 53%,
+      64% 52%,
+      99.9% 52%,
+      99.9% 38%,
+      12% 40%,
+      12% 38%,
+      53% 36%,
+      54% 29%,
+      99.9% 29%,
+      99.9% 17%,
+      64% 17%,
+      64% 14%,
+      55% 13%,
+      53% 8%
+    );
     height: 103em;
     shape-outside: polygon(
       68% 2em,
@@ -2233,8 +2316,9 @@ p.emphasized-heading {
     width: 82%;
   }
   img#collage_hero_img_2 {
+    height: 16.5em;
     right: -25%;
-    top: 4%;
+    top: 5.5em;
   }
   img#collage_hero_img_3 {
     top: 36em;
@@ -2244,10 +2328,75 @@ p.emphasized-heading {
     top: 61em;
   }
   img#collage_hero_img_5 {
+    height: 27.5em;
     right: -4em;
     top: 88em;
   }
   #layout-shape-for-collage-no-1 {
+    -webkit-clip-path: polygon(
+      70% 3em,
+      100% 3em,
+      100% 99%,
+      99% 99%,
+      44% 97%,
+      44% 92%,
+      57% 91%,
+      57% 89%,
+      79% 87%,
+      78% 74%,
+      99.9% 74%,
+      99.9% 57%,
+      41% 57%,
+      41% 55%,
+      55% 54%,
+      55% 52%,
+      64% 52%,
+      64% 51%,
+      99.9% 51%,
+      99.9% 36%,
+      12% 38%,
+      12% 36%,
+      53% 34%,
+      54% 29%,
+      99.9% 29%,
+      99.9% 18%,
+      68% 18%,
+      67% 16%,
+      57% 15%,
+      52% 10%
+    );
+    clip-path: polygon(
+      70% 3em,
+      100% 3em,
+      100% 99%,
+      99% 99%,
+      44% 97%,
+      44% 92%,
+      57% 91%,
+      57% 89%,
+      79% 87%,
+      78% 74%,
+      99.9% 74%,
+      99.9% 57%,
+      41% 57%,
+      41% 55%,
+      55% 54%,
+      55% 52%,
+      64% 52%,
+      64% 51%,
+      99.9% 51%,
+      99.9% 36%,
+      12% 38%,
+      12% 36%,
+      53% 34%,
+      54% 29%,
+      99.9% 29%,
+      99.9% 18%,
+      68% 18%,
+      67% 16%,
+      57% 15%,
+      52% 10%
+    );
     height: 115em;
     shape-outside: polygon(
       70% 3em,
@@ -2310,13 +2459,13 @@ p.emphasized-heading {
     width: 95%;
   }
   img#collage_hero_img_2 {
-    height: 9%;
-    right: -14%;
-    top: 11%;
+    height: 12em;
+    right: -12%;
+    top: 16em;
   }
   img#collage_hero_img_3 {
     right: 0;
-    top: 37em;
+    top: 41em;
     width: 61%;
   }
   img#collage_hero_img_4 {
@@ -2325,14 +2474,130 @@ p.emphasized-heading {
     width: 50%;
   }
   img#collage_hero_img_5 {
-    height: 17%;
+    height: 24em;
     right: -4em;
-    top: 96em;
+    top: 95.5em;
   }
   #layout-shape-for-collage-no-1 {
+    -webkit-clip-path: polygon(
+      70% 13em,
+      100% 13em,
+      100% 98%,
+      99% 98%,
+      47% 96%,
+      47% 93%,
+      57% 92%,
+      57% 90%,
+      79% 89%,
+      78% 77%,
+      99.9% 77%,
+      99.9% 58.5%,
+      23% 58.5%,
+      23% 57%,
+      51% 56%,
+      41% 55%,
+      40% 54%,
+      47% 53.5%,
+      50% 52.5%,
+      99.9% 52.5%,
+      99.9% 38%,
+      6% 40%,
+      5% 39%,
+      52% 37%,
+      54% 32%,
+      99.9% 32%,
+      99.9% 22.5%,
+      63% 22.5%,
+      63% 20.5%,
+      54% 20%,
+      50% 17%,
+      59% 13%
+    );
+    clip-path: polygon(
+      70% 13em,
+      100% 13em,
+      100% 98%,
+      99% 98%,
+      47% 96%,
+      47% 93%,
+      57% 92%,
+      57% 90%,
+      79% 89%,
+      78% 77%,
+      99.9% 77%,
+      99.9% 58.5%,
+      23% 58.5%,
+      23% 57%,
+      51% 56%,
+      41% 55%,
+      40% 54%,
+      47% 53.5%,
+      50% 52.5%,
+      99.9% 52.5%,
+      99.9% 38%,
+      6% 40%,
+      5% 39%,
+      52% 37%,
+      54% 32%,
+      99.9% 32%,
+      99.9% 22.5%,
+      63% 22.5%,
+      63% 20.5%,
+      54% 20%,
+      50% 17%,
+      59% 13%
+    );
     height: 120em;
     shape-outside: polygon(
       70% 13em,
+      100% 13em,
+      100% 98%,
+      99% 98%,
+      47% 96%,
+      47% 93%,
+      57% 92%,
+      57% 90%,
+      79% 89%,
+      78% 77%,
+      99.9% 77%,
+      99.9% 58.5%,
+      23% 58.5%,
+      23% 57%,
+      51% 56%,
+      41% 55%,
+      40% 54%,
+      47% 53.5%,
+      50% 52.5%,
+      99.9% 52.5%,
+      99.9% 38%,
+      6% 40%,
+      5% 39%,
+      52% 37%,
+      54% 32%,
+      99.9% 32%,
+      99.9% 22.5%,
+      63% 22.5%,
+      63% 20.5%,
+      54% 20%,
+      50% 17%,
+      59% 13%
+    );
+    width: 12em;
+  }
+}
+@media (max-width: 350px) {
+  #diag div:nth-child(2):before {
+    content: "350px";
+  }
+  body {
+    font-size: 4.54545vw;
+  }
+  img#collage_hero_img_5 {
+    right: -4em;
+  }
+  #layout-shape-for-collage-no-1 {
+    -webkit-clip-path: polygon(
+      65% 13em,
       100% 13em,
       100% 98%,
       99% 98%,
@@ -2358,27 +2623,47 @@ p.emphasized-heading {
       52% 34%,
       54% 29%,
       99.9% 29%,
-      99.9% 22.5%,
-      63% 22.5%,
-      63% 20.5%,
-      54% 20%,
-      50% 17%,
-      59% 13%
+      99.9% 23%,
+      56% 23%,
+      53% 20.5%,
+      46% 20%,
+      41% 17%,
+      51% 13%
     );
-    width: 12em;
-  }
-}
-@media (max-width: 350px) {
-  #diag div:nth-child(2):before {
-    content: "350px";
-  }
-  body {
-    font-size: 4.54545vw;
-  }
-  img#collage_hero_img_5 {
-    right: -4em;
-  }
-  #layout-shape-for-collage-no-1 {
+    clip-path: polygon(
+      65% 13em,
+      100% 13em,
+      100% 98%,
+      99% 98%,
+      47% 96%,
+      47% 93%,
+      57% 92%,
+      57% 90%,
+      79% 89%,
+      78% 77%,
+      99.9% 77%,
+      99.9% 58.5%,
+      23% 58.5%,
+      23% 57%,
+      51% 56%,
+      41% 55%,
+      40% 54%,
+      47% 53.5%,
+      50% 52.5%,
+      99.9% 52.5%,
+      99.9% 35%,
+      6% 37%,
+      5% 36%,
+      52% 34%,
+      54% 29%,
+      99.9% 29%,
+      99.9% 23%,
+      56% 23%,
+      53% 20.5%,
+      46% 20%,
+      41% 17%,
+      51% 13%
+    );
     height: 120em;
     shape-outside: polygon(
       65% 13em,
@@ -2434,4 +2719,9 @@ p.emphasized-heading {
 }
 #features .col-1 p {
   max-width: 17em;
+}
+@media (max-width: 1500px) {
+  #collage_blurb_no_5 {
+    max-width: 37em;
+  }
 }
