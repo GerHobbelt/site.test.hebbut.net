@@ -2786,6 +2786,12 @@ p.emphasized-heading {
     font-size: 135%;
   }
 }
+#diag {
+  display: none;
+}
+.debugging #diag {
+  display: block;
+}
 #wb_home p {
   max-width: 46em;
 }

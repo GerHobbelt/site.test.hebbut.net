@@ -492,12 +492,27 @@ try {
 		alert(`info: ${ browser_info }`);
 	}
 	
+	/*
 	if (0) {
 		let el = document.querySelector("#browser_info");
 		if (el) {
 			el.textContent = browser_info;
 		}
 	}
+	*/
+	
+	// keep basic media query debugging/diagnostics alive in production: enable when using ?dbg=1 URL query param
+	const current_uri = new URL(document.location || window.location);
+	const urlSearchParams = current_uri.searchParams;
+	if (urlSearchParams) {
+		const visited_lang = urlSearchParams.get("dbg");
+
+		if (visited_lang) {
+			let body = document.querySelector("body");
+				body.classList.add('debugging');
+		}
+	}
+	
 	
 	// detect any browser on an Apple device: those screw up the CSS3 shape-outside rendering at lower resolutions *at least*,
 	// PLUS they b0rk the root font size calculation, probably by some crazy rounding error somewhere (we take 100vw and divide 

@@ -2786,6 +2786,12 @@ p.emphasized-heading {
     font-size: 135%;
   }
 }
+#diag {
+  display: none;
+}
+.debugging #diag {
+  display: block;
+}
 #features .col-1 p,
 #features .col-2 p,
 #features .col-4 p {
