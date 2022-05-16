@@ -28,21 +28,33 @@
 
 // https://stackoverflow.com/questions/1043339/javascript-for-detecting-browser-language-preference
 
+// global var
+window.debug_site = false;
+
 try {
 	const userLang = encodeURIComponent(navigator.languages
 		? navigator.languages[0]
 		: (navigator.language || navigator.userLanguage));
 	const lang = userLang.substr(0, 2);
 
-	console.log({ lang, userLang, langs: navigator.languages, params: window.location.searchParams, loc: window.location })
+	// debug mode? -> enable when using ?dbg=1 URL query param
+	const current_uri = new URL(document.location || window.location);
+	const urlSearchParams = current_uri.searchParams;
+	if (urlSearchParams) {
+		const visited_lang = urlSearchParams.get("dbg");
+		
+		window.debug_site = !!visited_lang;
+	}
+	
+	if (window.debug_site) {
+		console.log({ lang, userLang, langs: navigator.languages, params: window.location.searchParams, loc: window.location })
+	}
 
 	// https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 	//
 	// We truly support only modern borwsers (non-IE, we assume everyone in corporate has upgraded to MS Edge)
 	// so no need to 'cope' with non-support of the URLSearchParams class either!
 
-	const current_uri = new URL(document.location || window.location);
-	const urlSearchParams = current_uri.searchParams;
 	if (urlSearchParams) {
 		const visited_lang = urlSearchParams.get("l");
 
@@ -501,16 +513,12 @@ try {
 	}
 	*/
 	
+	// global var `window.debug_site` has been set up in the top-side script already...
+	//
 	// keep basic media query debugging/diagnostics alive in production: enable when using ?dbg=1 URL query param
-	const current_uri = new URL(document.location || window.location);
-	const urlSearchParams = current_uri.searchParams;
-	if (urlSearchParams) {
-		const visited_lang = urlSearchParams.get("dbg");
-
-		if (visited_lang) {
-			let body = document.querySelector("body");
-				body.classList.add('debugging');
-		}
+	if (window.debug_site) {
+		let body = document.querySelector("body");
+			body.classList.add('debugging');
 	}
 	
 	
